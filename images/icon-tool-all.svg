@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88">
+  <g id="icon-tool-all" transform="translate(-919 -502)">
+    <rect id="Rectangle_77" data-name="Rectangle 77" width="88" height="88" rx="44" transform="translate(919 502)" fill="#f6328d" opacity="0"/>
+    <rect id="Rectangle_75" data-name="Rectangle 75" width="40" height="40" rx="20" transform="translate(943 526)" fill="#25d5e8"/>
+    <rect id="Rectangle_83" data-name="Rectangle 83" width="34" height="34" rx="17" transform="translate(946 529)" fill="#364250"/>
+    <text id="ALL" transform="translate(963 550)" fill="#fbf432" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.064em"><tspan x="-11.303" y="0">ALL</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,85 @@
+<figure>
+    <img>
+    <figcaption>
+    </figcaption>
+<figure>
+
+/* Belum di support semua browser
+<dialog>
+</dialog>
+
+<details>
+    <summary>
+    </summary>
+    <p></p>
+</details>
+*/
+
+/* New input stype 
+   Saran website html5doctor.com
+*/
+/*  search
+    email
+    url
+    tel
+    number
+    range
+    date
+    month
+    week
+    time
+    datetime
+    datetime-local
+    color
+*/
+
+<video width="300" height="300" controls muted poster="meja.jpg">
+    <source src="" type="video/mp4">
+    <source src="" type="video/ogg">
+    browser tidak didukung
+</video>
+
+<audio>
+    <source="" type="audio/wav">
+    browser tidak dikung
+</audio>
+
+<!-- Caniuse.com -->
+
+/* box-shadows: horizoltal vertical blur sread colo */
+/* text-shadows: horizoltal vertical blur sread colo */
+
+/* box-sizing & vendor prefix */
+    box-sizing: border-box;
+    box-sizing: padding-box;
+    box-sizing: content-box;
+    -moz- box-sizing: border-box;
+    -webkit- box-sizing: border-box;
+    -o- box-sizing: border-box;
+    -ms- box-sizing: border-box;
+
+overflow: hidden;
+overflow: scroll;
+text-overflow:;
+word-wrap: break-word;
+
+transform: translate(xpx, ypx);
+transform: rotate(35deg);
+
+transform: scale(xdeg,ydeg);
+transform: skew(xdeg;ydeg);
+
+.div1{
+    transition: height 1s, width 3s, color 5s;
+    height: 20px;
+    width: 50px;
+    color: pink;
+}
+
+.div1:hover{
+    transition-timing-function: easy-out;
+    transition-delay: 2s;
+    height: 30px;
+    width: 75px;
+    color: blue;
+}

@@ -1,0 +1,145 @@
+@media /*(min-width: 769px) and */(max-width: 768px) {
+    body{
+          max-width: 768px;
+          margin: 0 auto;
+      }
+  
+      /* Navigation */
+      nav{
+        padding: 19px 20px 19px 20px;
+      }
+  
+      /* Header */
+      header h1{
+        color: #437BFF;
+        padding: 120px 20px 80px 20px;
+      }
+  
+      /* Main */
+        /* Serviec */
+        main #service{
+          text-align: center;
+          padding: 120px 20px;
+        }
+
+        main #service ul{
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-row-gap: 64px;
+        }
+  
+        /* Skill */
+        main #skill .wrap_skill{
+            grid-template-columns: auto;
+        }
+  
+        main #skill .wrap_skill .img_skill{
+            background-size: 100%;
+            background: #437BFF;
+            height: 100vw;
+        }
+  
+        main #skill .wrap_skill .text_skill{
+            height: 100vw;
+            padding:0px 19.76%;
+            display: grid;
+            align-content: center;
+        }
+  
+        main #skill .wrap_skill .text_skill h1{
+            margin-bottom: 80px;
+        }
+  
+        main #skill .wrap_skill .text_skill p{
+            font-size: 16px;
+            line-height: 2em;
+        }
+
+        .skill_02{
+            grid-area: 2 / 1;
+        } 
+
+        main #skill .wrap_skill .img_skill{
+            background-size: 100%;
+        }
+      /*
+    transform: translateY(-50%);*/
+  
+        main #skill .wrap_skill .text_skill h2{
+            margin-bottom: 0px;
+            font-size: 28px;
+        }
+        
+        main #skill .wrap_skill .text_skill h1{
+            margin-bottom: 40px;
+            font-size: 28px;
+        }
+  
+        main #skill .wrap_skill .text_skill p{
+            font-size: 12px;
+        }
+        
+        /* Portfolio */
+        main #portfolio .wrap_portfolio{
+          grid-column-gap: 24px;
+          grid-template-columns: auto auto;
+        }
+
+        /* Portfolio */
+        header .wrap_portfolio_categori{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            padding: 0 135px 120px 135px;
+        }
+    
+        header .wrap_portfolio_categori a{
+            text-align: center;
+        }
+    
+        header .wrap_portfolio_categori a img{
+            max-width: 100%;
+        }
+    
+        main #portfolio_large .wrap_portfolio{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 24px;
+            grid-row-gap: 40px;
+            padding: 0 2.342%;
+        }
+
+        /* Contact */
+        main #contact h1{
+            padding: 120px 20px 80px 20px;
+        }
+  
+        main #contact .wrap_contact{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+  
+        
+        main #contact .wrap_contact div{
+            padding: 120px 20px;
+        }
+  
+      /* Footer */
+      footer h1{
+        padding: 120px 20px 80px 20px;
+        text-align: center;
+      }
+  
+      footer .wrap_social{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 0 20px 120px 20px;
+      }
+  
+      footer .wrap_footer_bottom{
+        grid-template-columns: auto;
+      }
+  
+      footer .wrap_footer_bottom div {
+        padding-bottom: 19px;
+      }
+  }

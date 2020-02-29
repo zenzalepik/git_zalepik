@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88">
+  <g id="icon-service-icon" transform="translate(1648 -3021)">
+    <rect id="Rectangle_1964" data-name="Rectangle 1964" width="88" height="88" transform="translate(-1648 3021)" fill="#fff" opacity="0"/>
+    <g id="Rectangle_1965" data-name="Rectangle 1965" transform="translate(-1641 3028)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="74" height="74" stroke="none"/>
+      <rect x="0.5" y="0.5" width="73" height="73" fill="none"/>
+    </g>
+    <circle id="Ellipse_355" data-name="Ellipse 355" cx="27" cy="27" r="27" transform="translate(-1626 3038)" fill="#25d5e8"/>
+    <path id="Path_453" data-name="Path 453" d="M-.707-.707,40.378.549,36.608,46.66,4.319,44.147Z" transform="translate(-1634.719 3059.719) rotate(-45)" fill="#00d3bd"/>
+    <path id="Subtraction_171" data-name="Subtraction 171" d="M19.8,38.891h0L0,19.092,19.092,0l19.8,19.8L19.8,38.89ZM8.92,19a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,8.92,19Z" transform="translate(-1636.42 3060)" fill="#437bff"/>
+  </g>
+</svg>

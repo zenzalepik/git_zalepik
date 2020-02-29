@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="88" viewBox="0 0 88 88">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path438-2" d="M584.591-284.7h40v-40h-40Z" transform="translate(-584.591 324.698)"/>
+    </clipPath>
+  </defs>
+  <g id="icon-social-facebook" transform="translate(-247 -289)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="44" cy="44" r="44" transform="translate(247 289)" fill="#1778f2" opacity="0"/>
+    <g id="g434" transform="translate(-313.559 637.664)">
+      <g id="g436" transform="translate(584.591 -324.698)" clip-path="url(#clip-path)">
+        <g id="g442" transform="translate(0.002 -0.002)">
+          <path id="path444" d="M-5.594,0a20,20,0,0,0-20,20A20,20,0,0,0-9.043,39.7V25.518H-13.87V20h4.827V15.594c0-5.013,3.31-8.007,7.879-8.007a34.8,34.8,0,0,1,4.535.359V13.1H.791c-2.484,0-2.936,1.563-2.936,3.146V20H3.372l-.965,5.518H-2.145V39.63h0v.07A20,20,0,0,0,14.407,20a20,20,0,0,0-20-20" transform="translate(25.593)" fill="#1778f2"/>
+        </g>
+      </g>
+      <g id="g506" transform="translate(596.316 -317.111)">
+        <path id="path508" d="M-4.553-5.015l.966-5.518H-9.1v-3.751c0-1.583.452-3.146,2.936-3.146h2.582v-5.157a34.821,34.821,0,0,0-4.536-.359c-4.569,0-7.878,2.994-7.878,8.007v4.406h-4.828v5.518H-16V9.159a20.213,20.213,0,0,0,3.448.3,20.216,20.216,0,0,0,3.449-.3V-5.015Z" transform="translate(20.829 22.947)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
