@@ -13,6 +13,22 @@
       color: #437BFF;
       padding: 120px 20px 80px 20px;
     }
+    
+    header div{
+      display: block;
+    }
+
+    header #language{
+      text-align: center;
+      padding-top: 0px;
+      margin-right: auto;
+      padding-bottom: 40px;
+      display: grid;
+      padding-left: 20px;
+      grid-template-columns: auto auto;
+      grid-gap: 24px;
+      max-width: 312px;
+    }
 
     /* Main */
       /* Serviec */

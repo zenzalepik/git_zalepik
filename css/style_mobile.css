@@ -46,7 +46,7 @@
         right: 0;
         padding: 5% 0;
         display: grid;
-        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-rows: auto;
         grid-template-columns: auto;}
   
       nav ul{
@@ -60,7 +60,7 @@
         padding: 120px 20px 80px 20px;
       }
   
-      header img{
+      header > img{
         content: url(../images/slider-home-1-zalepik_640px.png);
       }
   
