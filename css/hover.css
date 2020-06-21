@@ -3,6 +3,14 @@
     transition: 55ms;
 }
 
+
+.tooltip:hover .tooltiptext {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+    transition: ease;
+  }
+
 /* Nav */
 nav ul li .menu_nav:hover{
     box-shadow: 0px 4px 8px 4px rgba(37, 213, 232, 0.08);
@@ -89,22 +97,37 @@ main #article .article:hover b{
 }
 
 /* Video */
-main #video .video .video_thumbnail:hover{
+main #video .video .img_video:hover{
     box-shadow: 0px 16px 24px 4px rgba(37, 213, 232, 0.16);
     transform:  translate(0px , -03px);
     border: 1px solid white;
     transition: 515ms;
     opacity: 0.75;
+    box-sizing: border-box;
+}
+
+main #video .video .overlay:hover{
+    opacity: 1;
+    transition: 0.3s;
+    background: #ffffffaa;
+}
+
+main #video .video .video_thumbnail:hover{
+    box-shadow: 0px 16px 24px 4px rgba(37, 213, 232, 0.16);
+    transform:  translate(0px , -03px);
+    border: 1px solid white;
+    transition: 515ms;
+    opacity: 0.9;
     background-size: 150%;
 }
 
 main #video .video:hover b{
-    font-size: 16px;
     color: #437BFF;
 }
 
 main #video .video:hover div span{
-    opacity: 30%;
+    opacity: 10%;
+    transition: 0.3s;
 }
 
 /* Form */

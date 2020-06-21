@@ -106,6 +106,16 @@
         padding: 0 20px;
       }
 
+      main #video .video .img_video{
+          background-size: cover;
+          box-sizing: border-box;
+          border: 1px solid white;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          height:21vw;
+          transition: 0.75s;
+      }
+
       /* Article */
       main #article{
         display: grid;

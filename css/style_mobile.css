@@ -158,6 +158,22 @@
             
         }
 
+        /* Video */
+        main #video .video div span{
+            padding: 4px 8px;
+            position: absolute;
+            z-index: 1;
+            margin-left:4px;
+            margin-top: 4px;
+        }
+        
+
+        main #video{
+            grid-column-gap: 12px;
+            grid-row-gap: 16;
+        }
+
+
         /* Form */
         form{
             grid-template-columns: auto;
