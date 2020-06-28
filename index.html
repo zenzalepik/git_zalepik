@@ -14,40 +14,46 @@
     <link rel="icon" href="images/logo-color-small.png">
 </head>
 <body>
+    <div id="contact_hidden" class="surface_transparent">
+        <div class="wrapper_contact_popup">
+        <img onclick="icon_close_btn()" class="icon_close" alt="">
+            <header>
+                <h1><span class="color_blue">Contact</span><span class="color_cyan"> US</span><br>
+            </header>
+            <main>
+                <section id="form_contact">
+                    <form action="https://formspree.io/moqeyklk" method="POST">
+                        <input type="text" name="full_name" placeholder="Fullname" class="input_text full_name" required>
+                        <input type="email" name="_replyto" placeholder="Email" class="input_text _replyto" required>
+                        <input type="text" name="Phone" placeholder="Phone" class="input_text Phone" required>
+                        <input type="text" name="subject" placeholder="Subject" class="input_text subject" required>
+                        <textarea name="message" placeholder="Ketikkan pesan atau pertanyaan anda kepada kami" class="text_area message"></textarea>
+                        <input type="submit" value="Send" class="input_submit submit">
+                    </form>
+                </section>
+            </main>
+        </div>
+    </div>
+    <div id="wrap_body" class="class_body_fixed">
+    
+    
     <nav>
         <a href="index.html"><h2 id="logo">Zalepik</h2></a>
         <ul id="myDropdown" class="dropdown-content">
             <li><a class="color_blue" href="index.html">Home</a></li>
             <li><a href="freebie.html">Freebie</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="article.html">Article</a></li>
+            <li><a href="article.html" class="tooltip">Article
+                    <span class="tooltiptext background_blue">Under Construction</span>
+                </a>
+            </li>
             <li><a href="#" class="tooltip">Video
                     <span class="tooltiptext background_blue">Under Construction</span>
                 </a>
             </li>
             <li>
-                <a class="menu_nav">
-                    Contact
-                    <div class="surface_transparent">
-                        <div class="wrapper_contact_popup">
-                            <img src="/images/icon-close.svg" alt="">
-                            <header>
-                                <h1><span class="color_blue">Contact</span><span class="color_cyan"> US</span><br>
-                            </header>
-                            <main>
-                                <section id="form_contact">
-                                    <form action="https://formspree.io/moqeyklk" method="POST">
-                                        <input type="text" name="full_name" placeholder="Fullname" class="input_text full_name" required>
-                                        <input type="email" name="_replyto" placeholder="Email" class="input_text _replyto" required>
-                                        <input type="text" name="Phone" placeholder="Phone" class="input_text Phone" required>
-                                        <input type="text" name="subject" placeholder="Subject" class="input_text subject" required>
-                                        <textarea name="message" placeholder="Ketikkan pesan atau pertanyaan anda kepada kami" class="text_area message"></textarea>
-                                        <input type="submit" value="Send" class="input_submit submit">
-                                    </form>
-                                </section>
-                            </main>
-                        </div>
-                    </div>
+                <a class="menu_nav" onclick="contactbtnFunction()" >
+                    <span class="contactbtn color_white">Contact</span>
                 </a>
             </li>
         </ul>
@@ -189,22 +195,64 @@
         toggle between hiding and showing the dropdown content */
         function myFunction() {
           document.getElementById("myDropdown").classList.toggle("show");
+          document.getElementById("wrap_body").classList.toggle("wrap_body_fixed");
         }
         
         // Close the dropdown if the user clicks outside of it
         window.onclick = function(event) {
           if (!event.target.matches('.dropbtn')) {
             var dropdowns = document.getElementsByClassName("dropdown-content");
+            var wrap_body_fixed = document.getElementById("wrap_body").getElementsByClassName("class_body_fixed");
             var i;
             for (i = 0; i < dropdowns.length; i++) {
               var openDropdown = dropdowns[i];
               if (openDropdown.classList.contains('show')) {
+                wrap_body_fixed.style.position = "relative";
+                wrap_body_fixed.style.overflowY = "unset";
+                wrap_body_fixed.style.height = "auto";
                 openDropdown.classList.remove('show');
               }
             }
           }
         }
-        </script>
 
+        
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        
+        // Close the dropdown if the user clicks outside of it
+
+        
+        /*
+        function icon_close_btn() {
+          document.getElementsByTagName("body");
+        }
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          document.getElementsByTagName("body").contains('overflow_visible');
+        }
+        */
+
+        
+        function contactbtnFunction() {
+          /*document.body.style.overflow = "hidden";
+          document.body.style.height = "100%";*/
+          document.getElementById("wrap_body").style.position = "fixed";
+          document.getElementById("wrap_body").style.overflowY = "hidden";
+          document.getElementById("wrap_body").style.height = "100vh";
+          document.getElementById("contact_hidden").style.opacity = "1";
+          document.getElementById("contact_hidden").style.zIndex = "9";
+        }
+
+        function icon_close_btn() {
+          document.getElementById("contact_hidden").style.opacity = "0";
+          document.getElementById("contact_hidden").style.zIndex = "-9";
+          document.getElementById("wrap_body").style.position = "relative";
+          document.getElementById("wrap_body").style.overflowY = "unset";
+          document.getElementById("wrap_body").style.height = "auto";
+        }
+        
+        </script>
+    </div>
 </body>
 </html>
