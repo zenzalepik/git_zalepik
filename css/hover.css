@@ -8,7 +8,6 @@
     opacity: 1;
     visibility: visible;
     transition: 0.5s;
-    transition: ease;
   }
 
 /* Nav */
@@ -185,4 +184,8 @@ footer .wrap_footer_bottom a:hover{
     text-decoration: none;
     opacity: 0.75;
     transition: 255ms;
+}
+/* Icon close */
+.wrapper_contact_popup .icon_close:hover{
+    background: #437BFF;
 }

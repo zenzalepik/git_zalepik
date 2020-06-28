@@ -34,8 +34,7 @@
         }
   
         main #skill .wrap_skill .img_skill{
-            background-size: 100%;
-            background: #437BFF;
+            background-size: cover;
             height: 100vw;
         }
   
@@ -207,4 +206,22 @@
       footer .wrap_footer_bottom div {
         padding-bottom: 19px;
       }
+
+            
+        /* Iframe */
+        .surface_transparent{
+            top: -35px;
+            left: 0;
+            right: 0;
+            padding: 120px 0px;
+        }
+
+        .wrapper_contact_popup{
+            
+        }
+
+                
+        .wrapper_contact_popup #form_contact form{
+            padding: 0px 40px 80px 40px;
+        }
   }

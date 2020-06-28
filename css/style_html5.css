@@ -13,6 +13,10 @@
     color: #25D5E8;
 }
 
+.color_white{
+    color: #ffffff
+}
+
 .color_blue{
     color: #437BFF;
 }
@@ -44,6 +48,22 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
+}
+
+#wrap_body{
+    display: block;
+    position: relative;
+    width:100%;
+}
+
+.overflow_hidden_fixed{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.overflow_visible{
+    height: auto;
+    overflow: visible;
 }
 
 ul li{
@@ -127,6 +147,7 @@ nav ul li .menu_nav{
     color: white;
     transition: 375ms;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* Header */
@@ -189,7 +210,6 @@ header #language{
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 24px;
-    max-width: 312px;
 }
 
 header #language .button40px{
@@ -200,6 +220,7 @@ header #language .button40px{
     padding-right: 4px;
     padding-left:4px;
     transition: 0.3s;
+    float: right;
 }
 
 header #language .button40px img{
@@ -280,8 +301,10 @@ header img{
     }
 
     main #skill .wrap_skill .img_skill{
-        background: #437BFF;
-        background-size: 100%;
+        background: #F1F2F9;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         height: 640px;
     }
 
@@ -683,26 +706,56 @@ footer .wrap_footer_bottom div ul li a{
 
 /* Iframe */
 .surface_transparent{
+    transition: 0.3s;
     display: grid;
     grid-template-columns: auto;
     position: absolute;
-    top: 0;
+    top: -35px;
     left: 0;
     right: 0;
-    padding: 120px 0px;
     background: #364250aa;
 }
 
 .wrapper_contact_popup{
-    max-width: 1096px;
+    
     justify-self: center;
     background: white;
     z-index: 3;
 }
 
-.wrapper_contact_popup > img{
-    display: block;
+.wrapper_contact_popup h1{
+    padding-top:40px;
+    text-align: center;
+    padding-left: unset;
+    padding-right: unset;
+}
+
+.wrapper_contact_popup #form_contact form{
+    padding: 0px 40px 80px 40px;
+}
+
+.wrapper_contact_popup .icon_close{
+    cursor: pointer;
     position: relative;
-    top:40px;
+    top: 15px;
     left: 88%;
+    height: 48px;
+    width: 48px;
+    background-size: 64px;
+    background-color: #25D5E8;
+    mask-image: url(../images/icon-close.svg);
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    -moz-webkit-mask-size: 100%;
+    -o-webkit-mask-size: 100%;
+    -ms-webkit-mask-size: 100%;
+    -webkit-mask-image: url(../images/icon-close.svg);
+    -moz-mask-image: url(../images/icon-close.svg);
+    -o-mask-image: url(../images/icon-close.svg);
+    -ms-mask-image: url(../images/icon-close.svg);
+}
+
+#contact_hidden{
+    opacity: 0;
+    z-index: -9;
 }
