@@ -710,17 +710,18 @@ footer .wrap_footer_bottom div ul li a{
     display: grid;
     grid-template-columns: auto;
     position: absolute;
-    top: -35px;
+    top: 0;
     left: 0;
     right: 0;
+    padding: 40px 0;
     background: #364250aa;
 }
 
 .wrapper_contact_popup{
-    
     justify-self: center;
     background: white;
     z-index: 3;
+    border-radius: 8px;
 }
 
 .wrapper_contact_popup h1{
@@ -737,8 +738,9 @@ footer .wrap_footer_bottom div ul li a{
 .wrapper_contact_popup .icon_close{
     cursor: pointer;
     position: relative;
-    top: 15px;
-    left: 88%;
+    top: 40px;
+    left: 100%;
+    margin-left: -72px;
     height: 48px;
     width: 48px;
     background-size: 64px;

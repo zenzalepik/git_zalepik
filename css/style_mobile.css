@@ -252,4 +252,29 @@
         grid-template-columns: auto auto auto;
         grid-row-gap: 24px;
       }  
+
+      /* iframe */
+      
+      .surface_transparent{
+        padding: 0px;
+      }
+    
+
+      .wrapper_contact_popup{
+        justify-self: unset;
+        margin-bottom: 0px;
+        border-radius: 0px;
+      }
+
+      .wrapper_contact_popup h1{
+          padding-top:80px;
+          text-align: center;
+          padding-left: unset;
+          padding-right: unset;
+      }
+      
+      .wrapper_contact_popup .icon_close{
+        top: 24px;
+        /* background: #f1f2f9; */
+      }
   }

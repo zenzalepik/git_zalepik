@@ -210,14 +210,16 @@
             
         /* Iframe */
         .surface_transparent{
-            top: -35px;
+            top: 0px;   
             left: 0;
             right: 0;
-            padding: 120px 0px;
+            bottom: 0;
+            padding: 120px 20px;
+            overflow: scroll;
         }
 
         .wrapper_contact_popup{
-            
+            margin-bottom: 80px;
         }
 
                 
