@@ -1,0 +1,191 @@
+/* * */
+*{
+    transition: 55ms;
+}
+
+
+.tooltip:hover .tooltiptext {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+  }
+
+/* Nav */
+nav ul li .menu_nav:hover{
+    box-shadow: 0px 4px 8px 4px rgba(37, 213, 232, 0.08);
+    background: #437BFF;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #437BFF;
+    transition: 155ms;
+}
+
+/* Service */
+main #service ul li:hover{
+    cursor: pointer;
+}
+
+main #service ul li a:hover{
+    color: #437BFF;
+}
+
+main #service ul li:hover div{
+    transform: scale(1.07);
+    opacity: 0.7;
+    transition: 215ms;
+}
+
+
+
+main #service ul li:hover a{
+    color: #437BFF;
+}
+
+/* Portfolio */
+header .wrap_portfolio_categori a img:hover{
+    transform: scale(1.05);
+    opacity: 0.7;
+    transition: 315ms;
+}
+
+main #portfolio .wrap_portfolio img:hover{
+    box-shadow: 0px 16px 24px 4px rgba(37, 213, 232, 0.16);
+    transform:  translate(0px , -05px);
+    border: 1px solid white;
+    transition: 515ms;
+    opacity: 0.65;
+    background-size: 150%;
+    cursor: pointer;
+}
+
+main #portfolio_large .wrap_portfolio img:hover{
+    box-shadow: 0px 16px 24px 4px rgba(37, 213, 232, 0.16);
+    transform:  translate(0px , -01px);
+    border: 1px solid white;
+    transition: 515ms;
+    opacity: 0.75;
+    background-size: 150%;
+}
+
+main #portfolio_large .wrap_portfolio div:hover b{
+    color: #437BFF;
+    transition: 315ms;
+}
+
+main #portfolio_large .wrap_portfolio div:hover{
+    opacity: 0.85;
+    transition: 355ms;
+}
+
+/* Article */
+main #article a .article_thumbnail:hover{
+    box-shadow: 0px 16px 24px 4px rgba(37, 213, 232, 0.16);
+    transform:  translate(0px , -03px);
+    border: 1px solid white;
+    transition: 515ms;
+    opacity: 0.75;
+    background-size: 150%;
+}
+
+main #article .article:hover b{
+    font-size: 16px;
+    color: #437BFF;
+    margin: 24px 0 16px 0;
+}
+
+/* Video */
+main #video .video .img_video:hover{
+    box-shadow: 0px 16px 24px 4px rgba(37, 213, 232, 0.16);
+    transform:  translate(0px , -03px);
+    border: 1px solid white;
+    transition: 515ms;
+    opacity: 0.75;
+    box-sizing: border-box;
+}
+
+main #video .video .overlay:hover{
+    opacity: 1;
+    transition: 0.3s;
+    background: #ffffffaa;
+}
+
+main #video .video .video_thumbnail:hover{
+    box-shadow: 0px 16px 24px 4px rgba(37, 213, 232, 0.16);
+    transform:  translate(0px , -03px);
+    border: 1px solid white;
+    transition: 515ms;
+    opacity: 0.9;
+    background-size: 150%;
+}
+
+main #video .video:hover b{
+    color: #437BFF;
+}
+
+main #video .video:hover div span{
+    opacity: 10%;
+    transition: 0.3s;
+}
+
+/* Form */
+input:hover{
+    background: rgba(241, 240, 248, 0.7);
+    transition: 35ms;
+}
+
+input:focus{
+    background: rgba(241, 240, 248, 0.5);
+    box-shadow: 0px 4px 8px 0px rgba(37, 213, 232, 0.04);
+    outline: 1px solid #25D5E8;
+}
+
+.text_area:hover{
+    background: rgba(241, 240, 248, 0.7);
+    transition: 35ms;
+}
+
+.text_area:focus{
+    background: rgba(241, 240, 248, 0.7);
+    transition: 35ms;
+    outline: 1px solid #25D5E8;
+}
+
+.input_submit:hover{
+    background: #25D5E8;
+    box-shadow: 0px 8px 16px 0px rgba(37, 213, 232, 0.16);
+    transition: 75ms;
+    cursor: pointer;
+}
+
+/* Contact */
+    main #contact .wrap_contact div a:hover{
+        text-decoration: none;
+        opacity: 0.9;
+        transition: 555ms;
+}
+
+main #contact .wrap_contact div a:hover span{
+    text-decoration: none;
+    opacity: 0.9;
+    transition: 555ms;
+    margin-left: 6%;
+}
+
+/* Footer */
+footer .wrap_social a img:hover{
+    transform: scale(1.05);
+    opacity: 0.7;
+    transition: 315ms;
+}
+
+footer .wrap_footer_bottom a:hover{
+    text-decoration: none;
+    opacity: 0.75;
+    transition: 255ms;
+}
+/* Icon close */
+.wrapper_contact_popup .icon_close:hover{
+    background: #437BFF;
+}
