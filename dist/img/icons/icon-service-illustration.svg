@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88">
+  <g id="icon-service-illustration" transform="translate(1992 -3021)">
+    <rect id="Rectangle_1960" data-name="Rectangle 1960" width="88" height="88" transform="translate(-1992 3021)" fill="#fff" opacity="0"/>
+    <g id="Rectangle_1961" data-name="Rectangle 1961" transform="translate(-1985 3028)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="74" height="74" stroke="none"/>
+      <rect x="0.5" y="0.5" width="73" height="73" fill="none"/>
+    </g>
+    <path id="Subtraction_169" data-name="Subtraction 169" d="M32,44H4.129L0,23,32,0V27.071A7.086,7.086,0,0,0,31,27a7,7,0,0,0,0,14,7.085,7.085,0,0,0,1-.071V44Z" transform="translate(-1977 3036)" fill="#00d3bd"/>
+    <path id="Path_450" data-name="Path 450" d="M4.129,1H32V15H0Z" transform="translate(-1977 3079)" fill="#25d5e8"/>
+    <g id="Group_417" data-name="Group 417" transform="translate(-1954 3048)">
+      <path id="Subtraction_167" data-name="Subtraction 167" d="M24.387,38.5H0V35.875A6.132,6.132,0,0,0,6.124,29.75,6.131,6.131,0,0,0,0,23.625V0L28,20.125,24.387,38.5Z" transform="translate(7 0)" fill="#437bff"/>
+      <path id="Path_452" data-name="Path 452" d="M24.387,1H0V13.25H28Z" transform="translate(7 37.5)" fill="#437bff"/>
+    </g>
+  </g>
+</svg>

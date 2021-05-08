@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88">
+  <g id="icon-service-interaction" transform="translate(1811 -3021)">
+    <rect id="Rectangle_1962" data-name="Rectangle 1962" width="88" height="88" transform="translate(-1811 3021)" fill="#fff" opacity="0"/>
+    <g id="Rectangle_1963" data-name="Rectangle 1963" transform="translate(-1730 3028) rotate(90)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="74" height="74" stroke="none"/>
+      <rect x="0.5" y="0.5" width="73" height="73" fill="none"/>
+    </g>
+    <path id="Intersection_20" data-name="Intersection 20" d="M0,26.3a26.3,26.3,0,0,1,52.55-1.662l-28.063-.152L1.555,35.23A26.252,26.252,0,0,1,0,26.3Z" transform="translate(-1730 3064.9) rotate(135)" fill="#00d3bd"/>
+    <path id="Subtraction_168" data-name="Subtraction 168" d="M26.287,29.021A28.915,28.915,0,0,1,10.521,24.37,29.077,29.077,0,0,1,0,12.315L26.287,0,55.23,2.136A28.906,28.906,0,0,1,46.09,21.215,28.918,28.918,0,0,1,26.287,29.021Z" transform="translate(-1748.607 3046.313) rotate(135)" fill="#00d3bd"/>
+    <path id="Intersection_21" data-name="Intersection 21" d="M0,33.243,15.795,19.619,22.9,0A20.862,20.862,0,1,1,0,33.243Z" transform="translate(-1747.576 3049.105) rotate(90)" fill="#25d5e8"/>
+    <circle id="Ellipse_360" data-name="Ellipse 360" cx="21" cy="21" r="21" transform="translate(-1746 3044) rotate(90)" fill="#25d5e8"/>
+    <circle id="Ellipse_356" data-name="Ellipse 356" cx="17" cy="17" r="17" transform="translate(-1772 3065)" fill="#437bff"/>
+  </g>
+</svg>
