@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="751.716" height="540.028" viewBox="0 0 751.716 540.028">
+  <defs>
+    <filter id="Rectangle_1593" x="160.461" y="172.018" width="352.781" height="250.251" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-color="#364250" flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_32" x="216.768" y="262.638" width="29.73" height="28.316" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#22d558" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_259" x="329.892" y="274.818" width="120.028" height="87.231" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#25d5e8" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1593-2" x="398.935" y="75.763" width="352.781" height="250.251" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-4"/>
+      <feFlood flood-color="#364250" flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_32-2" x="455.241" y="166.384" width="29.73" height="28.316" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-color="#f6328d" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_259-2" x="570.169" y="183.652" width="116.849" height="76.981" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-color="#f6328d" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1593-3" x="103.646" y="0" width="352.781" height="250.251" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-7"/>
+      <feFlood flood-color="#364250" flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_32-3" x="159.952" y="90.621" width="29.73" height="28.316" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-color="#22d558" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_259-3" x="274.888" y="107.621" width="116.933" height="75.651" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-color="#437bff" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1593-4" x="0" y="289.778" width="352.781" height="250.251" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-10"/>
+      <feFlood flood-color="#364250" flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_32-4" x="56.307" y="380.399" width="29.73" height="28.316" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-color="#22d558" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_259-4" x="171.376" y="402.249" width="115.495" height="70.464" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-color="#ffba00" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_16" data-name="Group 16" transform="translate(-387.142 864.896)">
+    <g id="Group_12" data-name="Group 12" transform="matrix(0.966, 0.259, -0.259, 0.966, 467.611, -876.964)">
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, -74.6, 32.48)" filter="url(#Rectangle_1593)">
+        <rect id="Rectangle_1593-5" data-name="Rectangle 1593" width="255" height="110" rx="16" transform="matrix(0.97, 0.26, -0.26, 0.97, 227.93, 191.02)" fill="#fff"/>
+      </g>
+      <text id="Microstock" transform="translate(235 186)" fill="#364250" font-size="12" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700" letter-spacing="0.156em" opacity="0.5"><tspan x="0" y="0">Microstock</tspan></text>
+      <text id="_137" data-name="137" transform="translate(235 247)" fill="#364250" font-size="32" font-family="NunitoSans-ExtraBold, Nunito Sans" font-weight="800" letter-spacing="0.156em"><tspan x="0" y="0">137</tspan></text>
+      <text id="_77_" data-name="77%" transform="translate(398 186)" fill="#22d558" font-size="12" font-family="NunitoSans-ExtraBold, Nunito Sans" font-weight="800" letter-spacing="0.156em"><tspan x="0" y="0">77%</tspan></text>
+      <rect id="Rectangle_1598" data-name="Rectangle 1598" width="10" height="16" transform="translate(215 174)" fill="#00d3bd"/>
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, -74.6, 32.48)" filter="url(#Polygon_32)">
+        <path id="Polygon_32-5" data-name="Polygon 32" d="M4.152,1.357a1,1,0,0,1,1.7,0l3.2,5.113A1,1,0,0,1,8.2,8H1.8A1,1,0,0,1,.956,6.47Z" transform="matrix(0.97, 0.26, -0.26, 0.97, 227.84, 268.64)" fill="#22d558"/>
+      </g>
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, -74.6, 32.48)" filter="url(#Path_259)">
+        <path id="Path_259-5" data-name="Path 259" d="M312,250.5s15.136-13.326,22.22-10.445,16.1,4.682,19,2.881,8.051-1.8,10.627-2.881,1.932-5.4,2.254-9.725,7.729-2.521,9.017-1.8.644-4.682,4.508-9,7.729,1.081,10.305,0S400.881,208,400.881,208" transform="matrix(0.97, 0.26, -0.26, 0.97, 104.95, 1.74)" fill="none" stroke="#00d3bd" stroke-linecap="round" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="matrix(0.966, 0.259, -0.259, 0.966, 853.547, -770.133)">
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, -475.04, 29.18)" filter="url(#Rectangle_1593-2)">
+        <rect id="Rectangle_1593-6" data-name="Rectangle 1593" width="255" height="110" rx="16" transform="matrix(0.97, 0.26, -0.26, 0.97, 466.4, 94.76)" fill="#fff"/>
+      </g>
+      <text id="Marketplace" transform="translate(40 28)" fill="#364250" font-size="12" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700" letter-spacing="0.156em" opacity="0.5"><tspan x="0" y="0">Marketplace</tspan></text>
+      <text id="_97" data-name="97" transform="translate(40 89)" fill="#364250" font-size="32" font-family="NunitoSans-ExtraBold, Nunito Sans" font-weight="800" letter-spacing="0.156em"><tspan x="0" y="0">97</tspan></text>
+      <text id="_5_" data-name="5%" transform="translate(233 28)" fill="#f6328d" font-size="12" font-family="NunitoSans-ExtraBold, Nunito Sans" font-weight="800" letter-spacing="0.156em"><tspan x="-20.52" y="0">5%</tspan></text>
+      <rect id="Rectangle_1598-2" data-name="Rectangle 1598" width="10" height="16" transform="translate(20 16)" fill="#e732fb"/>
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, -475.04, 29.18)" filter="url(#Polygon_32-2)">
+        <path id="Polygon_32-6" data-name="Polygon 32" d="M4.152,1.357a1,1,0,0,1,1.7,0l3.2,5.113A1,1,0,0,1,8.2,8H1.8A1,1,0,0,1,.956,6.47Z" transform="matrix(-0.97, -0.26, 0.26, -0.97, 473.9, 182.7)" fill="#f6328d"/>
+      </g>
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, -475.04, 29.18)" filter="url(#Path_259-2)">
+        <path id="Path_259-6" data-name="Path 259" d="M400.882,245.5s-15.294-3.33-22.378-.448-15.944-3.314-18.842-5.115-12.559,2.716-12.881-1.606-7.729-13.521-9.017-12.8-.644,12.318-4.509,8-7.729-14.919-10.305-16S312,213,312,213" transform="matrix(0.97, 0.26, -0.26, 0.97, 343.69, -94.44)" fill="none" stroke="#e732fb" stroke-linecap="round" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="matrix(0.966, 0.259, -0.259, 0.966, 558.258, -845.896)">
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, -170.2, 25.94)" filter="url(#Rectangle_1593-3)">
+        <rect id="Rectangle_1593-7" data-name="Rectangle 1593" width="255" height="110" rx="16" transform="matrix(0.97, 0.26, -0.26, 0.97, 171.12, 19)" fill="#fff"/>
+      </g>
+      <text id="Project" transform="translate(40 28)" fill="#364250" font-size="12" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700" letter-spacing="0.156em" opacity="0.5"><tspan x="0" y="0">Project</tspan></text>
+      <text id="_5" data-name="5" transform="translate(40 89)" fill="#364250" font-size="32" font-family="NunitoSans-ExtraBold, Nunito Sans" font-weight="800" letter-spacing="0.156em"><tspan x="0" y="0">5</tspan></text>
+      <text id="_63_" data-name="63%" transform="translate(233 28)" fill="#22d558" font-size="12" font-family="NunitoSans-ExtraBold, Nunito Sans" font-weight="800" letter-spacing="0.156em"><tspan x="-29.592" y="0">63%</tspan></text>
+      <rect id="Rectangle_1598-3" data-name="Rectangle 1598" width="10" height="16" transform="translate(20 16)" fill="#437bff"/>
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, -170.2, 25.94)" filter="url(#Polygon_32-3)">
+        <path id="Polygon_32-7" data-name="Polygon 32" d="M4.152,1.357a1,1,0,0,1,1.7,0l3.2,5.113A1,1,0,0,1,8.2,8H1.8A1,1,0,0,1,.956,6.47Z" transform="matrix(0.97, 0.26, -0.26, 0.97, 171.02, 96.62)" fill="#22d558"/>
+      </g>
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, -170.2, 25.94)" filter="url(#Path_259-3)">
+        <path id="Path_259-7" data-name="Path 259" d="M312,243.5s15.136-13.326,22.22-10.445,16.1,2.682,19,.881,12.559,6.716,12.881,2.394,7.729-2.521,9.017-1.8.644-7.682,4.508-12,7.729,2.081,10.305,1S400.881,213,400.881,213" transform="matrix(0.97, 0.26, -0.26, 0.97, 48.13, -170.28)" fill="none" stroke="#437bff" stroke-linecap="round" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Group_15" data-name="Group 15" transform="matrix(0.966, 0.259, -0.259, 0.966, 307.15, -759.204)">
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, 49.91, -122.79)" filter="url(#Rectangle_1593-4)">
+        <rect id="Rectangle_1593-8" data-name="Rectangle 1593" width="255" height="110" rx="16" transform="matrix(0.97, 0.26, -0.26, 0.97, 67.47, 308.78)" fill="#fff"/>
+      </g>
+      <text id="Order" transform="translate(235 186)" fill="#364250" font-size="12" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700" letter-spacing="0.156em" opacity="0.5"><tspan x="0" y="0">Order</tspan></text>
+      <text id="_19" data-name="19" transform="translate(235 247)" fill="#364250" font-size="32" font-family="NunitoSans-ExtraBold, Nunito Sans" font-weight="800" letter-spacing="0.156em"><tspan x="0" y="0">19</tspan></text>
+      <text id="_37_" data-name="37%" transform="translate(428 186)" fill="#22d558" font-size="12" font-family="NunitoSans-ExtraBold, Nunito Sans" font-weight="800" letter-spacing="0.156em"><tspan x="-29.592" y="0">37%</tspan></text>
+      <rect id="Rectangle_1598-4" data-name="Rectangle 1598" width="10" height="16" transform="translate(215 174)" fill="#ffba00"/>
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, 49.91, -122.79)" filter="url(#Polygon_32-4)">
+        <path id="Polygon_32-8" data-name="Polygon 32" d="M4.152,1.357a1,1,0,0,1,1.7,0l3.2,5.113A1,1,0,0,1,8.2,8H1.8A1,1,0,0,1,.956,6.47Z" transform="matrix(0.97, 0.26, -0.26, 0.97, 67.38, 386.4)" fill="#22d558"/>
+      </g>
+      <g transform="matrix(0.97, -0.26, 0.26, 0.97, 49.91, -122.79)" filter="url(#Path_259-4)">
+        <path id="Path_259-8" data-name="Path 259" d="M312,230.5s15.136,9.674,22.22,12.555,16.1-3.318,19-5.119,8.051-1.8,10.627-2.881,9.983,5.754,11.271,6.475.644-13.682,4.508-18,7.729,7.081,10.305,6S400.881,218,400.881,218" transform="matrix(0.97, 0.26, -0.26, 0.97, -55.51, 119.5)" fill="none" stroke="#ffba00" stroke-linecap="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

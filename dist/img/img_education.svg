@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="683" height="356" viewBox="0 0 683 356">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2145" data-name="Rectangle 2145" width="683" height="356" transform="translate(-421 4205)" fill="#fff"/>
+    </clipPath>
+    <filter id="Rectangle_2144" x="76" y="-200" width="825" height="825" filterUnits="userSpaceOnUse">
+      <feOffset dy="-24" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="48" result="blur"/>
+      <feFlood flood-color="#25d5e8" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2143" x="188" y="-88" width="601" height="601" filterUnits="userSpaceOnUse">
+      <feOffset dy="-24" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="32" result="blur-2"/>
+      <feFlood flood-color="#25d5e8" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2142" x="244" y="-32" width="489" height="489" filterUnits="userSpaceOnUse">
+      <feOffset dy="-24" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="32" result="blur-3"/>
+      <feFlood flood-color="#25d5e8" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2141" x="280" y="4" width="417" height="417" filterUnits="userSpaceOnUse">
+      <feOffset dy="-24" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="32" result="blur-4"/>
+      <feFlood flood-color="#25d5e8" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.735" cy="0.657" r="0.581" gradientTransform="translate(0 -0.573) scale(1 2.042)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#25d5e8"/>
+      <stop offset="1" stop-color="#82e397"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.433" cy="0.195" r="0.581" gradientTransform="translate(0 -0.573) scale(1 2.042)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#437bff"/>
+      <stop offset="1" stop-color="#25d5e8" stop-opacity="0.161"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.192" cy="0.182" r="0.756" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbf432"/>
+      <stop offset="1" stop-color="#ffba00"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="0.085" cy="0.322" r="1.434" gradientTransform="translate(0 -0.298) scale(1 1.874)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffba00"/>
+      <stop offset="0.33" stop-color="#ebc018"/>
+      <stop offset="1" stop-color="#82e397"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-5" cx="0.486" cy="0.124" r="0.473" gradientTransform="translate(0 -0.17) scale(1 2.465)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#437bff"/>
+      <stop offset="1" stop-color="#e732fb"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-6" cx="0.877" cy="0.071" r="0.935" gradientTransform="translate(0 -0.007) scale(1 1.097)" xlink:href="#radial-gradient-5"/>
+    <filter id="Path_912" x="455.678" y="122.292" width="106.494" height="104.703" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-5"/>
+      <feFlood flood-color="#437bff" flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-7" cx="0.137" cy="0.228" r="0.805" gradientTransform="translate(0 0.009) scale(1 0.958)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f2f1f9"/>
+    </radialGradient>
+    <filter id="Path_913" x="433.912" y="194.728" width="46.84" height="39.665" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-6"/>
+      <feFlood flood-color="#437bff" flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-8" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#25d5e8"/>
+      <stop offset="1" stop-color="#f6328d"/>
+    </radialGradient>
+  </defs>
+  <g id="Mask_Group_13" data-name="Mask Group 13" transform="translate(421 -4205)" clip-path="url(#clip-path)">
+    <g id="Group_24" data-name="Group 24" transform="translate(-51 79)">
+      <g transform="matrix(1, 0, 0, 1, -370, 4126)" filter="url(#Rectangle_2144)">
+        <rect id="Rectangle_2144-2" data-name="Rectangle 2144" width="537" height="537" rx="268.5" transform="translate(220 -32)" fill="#fff" opacity="0.24"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -370, 4126)" filter="url(#Rectangle_2143)">
+        <rect id="Rectangle_2143-2" data-name="Rectangle 2143" width="409" height="409" rx="204.5" transform="translate(284 32)" fill="#fff" opacity="0.64"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -370, 4126)" filter="url(#Rectangle_2142)">
+        <rect id="Rectangle_2142-2" data-name="Rectangle 2142" width="297" height="297" rx="148.5" transform="translate(340 88)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -370, 4126)" filter="url(#Rectangle_2141)">
+        <rect id="Rectangle_2141-2" data-name="Rectangle 2141" width="225" height="225" rx="112.5" transform="translate(376 124)" fill="#fff"/>
+      </g>
+      <g id="Group_23" data-name="Group 23">
+        <path id="Path_908" data-name="Path 908" d="M73.246,4231.014l134.261,36.817-89.83,88.932H-29.644Z" fill="url(#radial-gradient)"/>
+        <path id="Intersection_23" data-name="Intersection 23" d="M198.674,69.089c-23.288-23.108-57.96-13.892-80.263-7.916-8.312,2.227,1.746-1.64,23.546-5.505a412.846,412.846,0,0,1,82.222-6.007l-23.027,22.8A34.994,34.994,0,0,0,198.674,69.089Z" transform="translate(-29.644 4231.014)" fill="url(#radial-gradient-2)" style="mix-blend-mode: screen;isolation: isolate"/>
+        <path id="Path_918" data-name="Path 918" d="M198.674,69.089c-23.288-23.108-57.96-13.892-80.263-7.916-8.312,2.227,1.746-1.64,23.546-5.505,19.555-3.469,48.555-6.937,70.33,5.767L201.152,72.457A34.994,34.994,0,0,0,198.674,69.089Z" transform="translate(-29.644 4231.014)" fill="#437bff" style="mix-blend-mode: color-burn;isolation: isolate"/>
+        <path id="Path_909" data-name="Path 909" d="M62.245-101.922c23.09,0,58.965.072,75.479,28.42.875.843,23.453,67.943,23.453,72.684C161.176,9.4,121.078,37,78,37S-7.071,16.47-7.071,6.253c0-5.282,4.018-70.006,4.018-70.008C8.862-88.774,41.438-101.922,62.245-101.922Z" transform="matrix(0.966, -0.259, 0.259, 0.966, 55.022, 4406.745)" fill="url(#radial-gradient-3)"/>
+        <path id="Path_911" data-name="Path 911" d="M155.633-20.5c3.158,10.01,5.543,18.137,5.543,19.678C161.176,9.4,121.078,37,78,37S-7.071,16.47-7.071,6.253c0-1.733.432-9.86,1.027-20.241.621-10.844,27.2-28.251,69.1-29.5C99.913-44.584,152.4-30.729,155.633-20.5Z" transform="matrix(0.966, -0.259, 0.259, 0.966, 55.022, 4406.745)" fill="url(#radial-gradient-4)"/>
+        <path id="Path_910" data-name="Path 910" d="M63.858-24.495c43.6-1.932,97.319,13.459,97.319,23.676S121.078,37,78,37-7.071,16.47-7.071,6.253,20.262-22.563,63.858-24.495Z" transform="matrix(0.966, -0.259, 0.259, 0.966, 55.022, 4406.745)" fill="url(#radial-gradient-5)"/>
+        <path id="Path_917" data-name="Path 917" d="M169.349,4257.367s-.239-1.351,2.7-1.023a5.118,5.118,0,0,1,4.011,2.863s9.225,20.724-10.87,40.171S95.678,4337,95.678,4337v-5.315s48.23-17.812,66.648-36.391c9.393-9.475,11.032-19.149,10.356-26.638A29.5,29.5,0,0,0,169.349,4257.367Z" fill="#437bff" style="mix-blend-mode: screen;isolation: isolate"/>
+        <g transform="matrix(1, 0, 0, 1, -370, 4126)" filter="url(#Path_912)">
+          <path id="Path_912-2" data-name="Path 912" d="M169.349,4257.367s-.239-1.351,2.7-1.023a5.118,5.118,0,0,1,4.011,2.863s9.225,20.724-10.87,40.171S95.678,4337,95.678,4337v-5.315s48.23-17.812,66.648-36.391c9.393-9.475,11.032-19.149,10.356-26.638A29.5,29.5,0,0,0,169.349,4257.367Z" transform="translate(370 -4126)" fill="url(#radial-gradient-6)"/>
+        </g>
+        <path id="Path_916" data-name="Path 916" d="M95.678,4329.948c.994.1,1.386,6.078.8,7.843s-8.53,7.06-13.53,6.569-11.275-11.667-8.236-14.413S95.678,4329.948,95.678,4329.948Z" fill="#437bff" style="mix-blend-mode: screen;isolation: isolate"/>
+        <g transform="matrix(1, 0, 0, 1, -370, 4126)" filter="url(#Path_913)">
+          <path id="Path_913-2" data-name="Path 913" d="M95.678,4329.948c.994.1,1.386,6.078.8,7.843s-8.53,7.06-13.53,6.569-11.275-11.667-8.236-14.413S95.678,4329.948,95.678,4329.948Z" transform="translate(370 -4126)" fill="url(#radial-gradient-7)"/>
+        </g>
+      </g>
+      <circle id="Ellipse_408" data-name="Ellipse 408" cx="62.5" cy="62.5" r="62.5" transform="translate(-42 4263)" fill="url(#radial-gradient-8)" style="mix-blend-mode: screen;isolation: isolate"/>
+      <circle id="Ellipse_409" data-name="Ellipse 409" cx="149.5" cy="149.5" r="149.5" transform="translate(-129 4176)" opacity="0.8" fill="url(#radial-gradient-8)" style="mix-blend-mode: screen;isolation: isolate"/>
+    </g>
+  </g>
+</svg>
