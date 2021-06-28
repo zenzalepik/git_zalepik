@@ -1008,26 +1008,33 @@ body{
   align-items: center;
   transition-duration: 150ms;
   cursor: pointer;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.zalepik_box:hover{
+  transition-duration: 300ms;
 }
 
 .zalepik_box_baca{
   background-image: url("../dist/img/img_articles_bottom_start.svg");
-  background-size: contain, cover;
-  background-position: right;
-  background-repeat: no-repeat;
 }
 
 .zalepik_box_nonton{
   background-image: url("../dist/img/img_video_bottom_start.svg");
-  background-size: contain, cover;
-  background-position: right;
-  background-repeat: no-repeat;
 }
 
 .zalepik_wrap_title_section{
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   padding-bottom: 8rem;
+}
+
+.zalepik_wrap_title_section_no_pb{
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  padding-bottom: 0;
 }
 
 .zalepik_menu_white{
@@ -1379,11 +1386,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   margin-left: auto;
   margin-right: auto;
   bottom: 0;
-  margin-bottom: 0;
   right: 0;
   left: 0;
   text-align: center;
-  width: 560px;
+  max-width: 340px;
+  padding:0px 20px 0px 20px;
+  margin-bottom: -240px
+}
+
+.zalepik_button_banner_home{
+  margin-bottom: -360px
 }
 
 .zalepik_spacer_gray{
@@ -1391,16 +1403,19 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   background-color: #F1F0F8;
   background-color: rgba(241, 240, 248, var(--bg-opacity));
   width: 100%;
-  height: 360px;
+  height: 720px;
 }
 
 .zalepik_learn{
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-  background-image: linear-gradient(white, #F1F0F8);
+  background-image: url("../dist/img/img_education_sm.svg"), linear-gradient(white, #F1F0F8);
+  padding-bottom: 240px;
+  padding-top: 6rem;
+}
+
+.zalepik_learn{
   background-repeat: no-repeat;
   background-size: contain, cover;
-  background-position: right;
+  background-position: right bottom;
 }
 
 .space-y-0 > :not(template) ~ :not(template) {
@@ -11219,6 +11234,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .zalepik_md_hidden{
     opacity: 1;
   }
+
+  .zalepik_banner_text_description{
+    width: 560px;
+    max-width: unset;
+  }
 }
 
 @media (min-width: 768px) {
@@ -11270,7 +11290,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   }
 
   .zalepik_learn{
-    background-image: url("../dist/img/img_education.svg"), linear-gradient(white, #F1F0F8);
+    background-image: url("../dist/img/img_education_sm.svg"), linear-gradient(white, #F1F0F8);
+    background-position: right;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 }
 
