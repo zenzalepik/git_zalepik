@@ -11258,7 +11258,7 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   }
 
   .zalepik_social{
-    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   #blog .zalepik_galery{
