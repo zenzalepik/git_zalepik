@@ -1418,6 +1418,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   background-position: right bottom;
 }
 
+.background_hubungi_kami{
+  background-image: url("../dist/img/background_hubungi_kami.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.icon_download{
+  transition-duration: 500ms;
+  box-shadow: 0 16px 24px 4px rgba(37, 213, 232, 0.04);
+  height: 120px;
+  width: 120px;
+  background: url("../dist/img/icon_download.svg");
+  margin: auto;
+  top: -20px !important;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+  background-size: cover;
+  opacity: 0;
+  border-radius: 100%;
+}
+
+#galery_freebies a{
+  text-align: center;
+  display: block !important;
+  position: relative !important;
+}
+
+#galery_freebies a:hover .icon_download{
+  transition-duration: 500ms;
+  top: 0px !important;
+  opacity: 1;
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
@@ -11216,10 +11252,6 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 .zalepik_box:hover .zalepik_arrow_white{
   transform: translateX(16px);
   opacity: 0.64;
-}
-
-.zalepik_menu:not(.zalepik_button):hover{
-  /*transform: translateY(-1px);*/
 }
 
 .zalepik_button_icon:hover svg path.zalepik_svg_path{
