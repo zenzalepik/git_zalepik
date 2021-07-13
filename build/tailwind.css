@@ -840,6 +840,16 @@ body{
   font-family: Roboto, sans-serif;
 }
 
+.zalepik_title_2{
+  font-size: 24px;
+  --text-opacity: 1;
+  color: #437BFF;
+  color: rgba(67, 123, 255, var(--text-opacity));
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+}
+
 .zalepik_title_number{
   font-size: 40px;
   padding-bottom: 1.5rem;
@@ -1454,6 +1464,44 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   opacity: 1;
 }
 
+.zalepik_wrap_button_iconcontact{
+  max-width: 360px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 12px 0px 12px;
+}
+
+.bg_natural{
+  background: #F9F9F9;
+}
+
+.text-indent-zalepik{
+  text-indent: 20px;
+}
+
+.no-padding{
+  padding: 0px !important;
+}
+
+.redius-linkedin{
+  border-radius: 6.633% !important;
+}
+
+.transition:hover .svg_hover_white{
+  fill: #ffffff !important;
+  transition: all 100ms;
+}
+
+.zalepik_palceholder_light:-webkit-input-placeholder, 
+  .zalepik_palceholder_light:-moz-placeholder, 
+  .zalepik_palceholder_light::-moz-placeholder, 
+  .zalepik_palceholder_light:-ms-input-placeholder, 
+  .zalepik_palceholder_light::-ms-input-placeholder,
+  .zalepik_palceholder_light::placeholder{
+  color: #FFFFFF !important;
+  opacity: 1;
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
@@ -1990,6 +2038,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   border-color: rgba(67, 123, 255, var(--divide-opacity));
 }
 
+.divide-pink-500 > :not(template) ~ :not(template) {
+  --divide-opacity: 1;
+  border-color: rgb(246, 50, 141);
+  border-color: rgba(246, 50, 141, var(--divide-opacity));
+}
+
+.divide-black-500 > :not(template) ~ :not(template) {
+  --divide-opacity: 1;
+  border-color: rgb(54, 65, 80);
+  border-color: rgba(54, 65, 80, var(--divide-opacity));
+}
+
 .divide-white > :not(template) ~ :not(template) {
   --divide-opacity: 1;
   border-color: #FFFFFF;
@@ -2018,6 +2078,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --divide-opacity: 1;
   border-color: #25D366;
   border-color: rgba(37, 211, 102, var(--divide-opacity));
+}
+
+.divide-LinkedIn > :not(template) ~ :not(template) {
+  --divide-opacity: 1;
+  border-color: rgb(10, 102, 194);
+  border-color: rgba(10, 102, 194, var(--divide-opacity));
+}
+
+.divide-dribbble > :not(template) ~ :not(template) {
+  border-color:  #ea4c89;
+}
+
+.divide-Behance > :not(template) ~ :not(template) {
+  --divide-opacity: 1;
+  border-color: #0057ff;
+  border-color: rgba(0, 87, 255, var(--divide-opacity));
 }
 
 .divide-solid > :not(template) ~ :not(template) {
@@ -2189,6 +2265,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   background-color: rgba(67, 123, 255, var(--bg-opacity));
 }
 
+.bg-pink-500 {
+  --bg-opacity: 1;
+  background-color: rgb(246, 50, 141);
+  background-color: rgba(246, 50, 141, var(--bg-opacity));
+}
+
+.bg-black-500 {
+  --bg-opacity: 1;
+  background-color: rgb(54, 65, 80);
+  background-color: rgba(54, 65, 80, var(--bg-opacity));
+}
+
 .bg-white {
   --bg-opacity: 1;
   background-color: #FFFFFF;
@@ -2219,6 +2307,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   background-color: rgba(37, 211, 102, var(--bg-opacity));
 }
 
+.bg-LinkedIn {
+  --bg-opacity: 1;
+  background-color: rgb(10, 102, 194);
+  background-color: rgba(10, 102, 194, var(--bg-opacity));
+}
+
+.bg-dribbble {
+  background-color:  #ea4c89;
+}
+
+.bg-Behance {
+  --bg-opacity: 1;
+  background-color: #0057ff;
+  background-color: rgba(0, 87, 255, var(--bg-opacity));
+}
+
 .hover\:bg-DEFAULT:hover {
   background-color: rgba(54, 66, 80, 0.6039215686274509);
 }
@@ -2233,6 +2337,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --bg-opacity: 1;
   background-color: #437BFF;
   background-color: rgba(67, 123, 255, var(--bg-opacity));
+}
+
+.hover\:bg-pink-500:hover {
+  --bg-opacity: 1;
+  background-color: rgb(246, 50, 141);
+  background-color: rgba(246, 50, 141, var(--bg-opacity));
+}
+
+.hover\:bg-black-500:hover {
+  --bg-opacity: 1;
+  background-color: rgb(54, 65, 80);
+  background-color: rgba(54, 65, 80, var(--bg-opacity));
 }
 
 .hover\:bg-white:hover {
@@ -2265,6 +2381,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   background-color: rgba(37, 211, 102, var(--bg-opacity));
 }
 
+.hover\:bg-LinkedIn:hover {
+  --bg-opacity: 1;
+  background-color: rgb(10, 102, 194);
+  background-color: rgba(10, 102, 194, var(--bg-opacity));
+}
+
+.hover\:bg-dribbble:hover {
+  background-color:  #ea4c89;
+}
+
+.hover\:bg-Behance:hover {
+  --bg-opacity: 1;
+  background-color: #0057ff;
+  background-color: rgba(0, 87, 255, var(--bg-opacity));
+}
+
 .focus\:bg-DEFAULT:focus {
   background-color: rgba(54, 66, 80, 0.6039215686274509);
 }
@@ -2279,6 +2411,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --bg-opacity: 1;
   background-color: #437BFF;
   background-color: rgba(67, 123, 255, var(--bg-opacity));
+}
+
+.focus\:bg-pink-500:focus {
+  --bg-opacity: 1;
+  background-color: rgb(246, 50, 141);
+  background-color: rgba(246, 50, 141, var(--bg-opacity));
+}
+
+.focus\:bg-black-500:focus {
+  --bg-opacity: 1;
+  background-color: rgb(54, 65, 80);
+  background-color: rgba(54, 65, 80, var(--bg-opacity));
 }
 
 .focus\:bg-white:focus {
@@ -2309,6 +2453,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --bg-opacity: 1;
   background-color: #25D366;
   background-color: rgba(37, 211, 102, var(--bg-opacity));
+}
+
+.focus\:bg-LinkedIn:focus {
+  --bg-opacity: 1;
+  background-color: rgb(10, 102, 194);
+  background-color: rgba(10, 102, 194, var(--bg-opacity));
+}
+
+.focus\:bg-dribbble:focus {
+  background-color:  #ea4c89;
+}
+
+.focus\:bg-Behance:focus {
+  --bg-opacity: 1;
+  background-color: #0057ff;
+  background-color: rgba(0, 87, 255, var(--bg-opacity));
 }
 
 .bg-none {
@@ -2362,6 +2522,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
 }
 
+.from-pink-500 {
+  --gradient-from-color: rgb(246, 50, 141);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+}
+
+.from-black-500 {
+  --gradient-from-color: rgb(54, 65, 80);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
+}
+
 .from-white {
   --gradient-from-color: #FFFFFF;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
@@ -2387,6 +2557,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
 }
 
+.from-LinkedIn {
+  --gradient-from-color: rgb(10, 102, 194);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+}
+
+.from-dribbble {
+  --gradient-from-color:  #ea4c89;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+}
+
+.from-Behance {
+  --gradient-from-color: #0057ff;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+}
+
 .via-DEFAULT {
   --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -2400,6 +2585,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 .via-blue-500 {
   --gradient-via-color: #437BFF;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+}
+
+.via-pink-500 {
+  --gradient-via-color: rgb(246, 50, 141);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+}
+
+.via-black-500 {
+  --gradient-via-color: rgb(54, 65, 80);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
 }
 
 .via-white {
@@ -2427,6 +2622,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
 }
 
+.via-LinkedIn {
+  --gradient-via-color: rgb(10, 102, 194);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+}
+
+.via-dribbble {
+  --gradient-via-color:  #ea4c89;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+}
+
+.via-Behance {
+  --gradient-via-color: #0057ff;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+}
+
 .to-DEFAULT {
   --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
 }
@@ -2437,6 +2647,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
 .to-blue-500 {
   --gradient-to-color: #437BFF;
+}
+
+.to-pink-500 {
+  --gradient-to-color: rgb(246, 50, 141);
+}
+
+.to-black-500 {
+  --gradient-to-color: rgb(54, 65, 80);
 }
 
 .to-white {
@@ -2459,6 +2677,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-to-color: #25D366;
 }
 
+.to-LinkedIn {
+  --gradient-to-color: rgb(10, 102, 194);
+}
+
+.to-dribbble {
+  --gradient-to-color:  #ea4c89;
+}
+
+.to-Behance {
+  --gradient-to-color: #0057ff;
+}
+
 .hover\:from-DEFAULT:hover {
   --gradient-from-color: rgba(54, 66, 80, 0.6039215686274509);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -2472,6 +2702,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 .hover\:from-blue-500:hover {
   --gradient-from-color: #437BFF;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+}
+
+.hover\:from-pink-500:hover {
+  --gradient-from-color: rgb(246, 50, 141);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+}
+
+.hover\:from-black-500:hover {
+  --gradient-from-color: rgb(54, 65, 80);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
 }
 
 .hover\:from-white:hover {
@@ -2499,6 +2739,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
 }
 
+.hover\:from-LinkedIn:hover {
+  --gradient-from-color: rgb(10, 102, 194);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+}
+
+.hover\:from-dribbble:hover {
+  --gradient-from-color:  #ea4c89;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+}
+
+.hover\:from-Behance:hover {
+  --gradient-from-color: #0057ff;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+}
+
 .hover\:via-DEFAULT:hover {
   --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -2512,6 +2767,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 .hover\:via-blue-500:hover {
   --gradient-via-color: #437BFF;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+}
+
+.hover\:via-pink-500:hover {
+  --gradient-via-color: rgb(246, 50, 141);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+}
+
+.hover\:via-black-500:hover {
+  --gradient-via-color: rgb(54, 65, 80);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
 }
 
 .hover\:via-white:hover {
@@ -2539,6 +2804,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
 }
 
+.hover\:via-LinkedIn:hover {
+  --gradient-via-color: rgb(10, 102, 194);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+}
+
+.hover\:via-dribbble:hover {
+  --gradient-via-color:  #ea4c89;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+}
+
+.hover\:via-Behance:hover {
+  --gradient-via-color: #0057ff;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+}
+
 .hover\:to-DEFAULT:hover {
   --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
 }
@@ -2549,6 +2829,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
 .hover\:to-blue-500:hover {
   --gradient-to-color: #437BFF;
+}
+
+.hover\:to-pink-500:hover {
+  --gradient-to-color: rgb(246, 50, 141);
+}
+
+.hover\:to-black-500:hover {
+  --gradient-to-color: rgb(54, 65, 80);
 }
 
 .hover\:to-white:hover {
@@ -2571,6 +2859,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-to-color: #25D366;
 }
 
+.hover\:to-LinkedIn:hover {
+  --gradient-to-color: rgb(10, 102, 194);
+}
+
+.hover\:to-dribbble:hover {
+  --gradient-to-color:  #ea4c89;
+}
+
+.hover\:to-Behance:hover {
+  --gradient-to-color: #0057ff;
+}
+
 .focus\:from-DEFAULT:focus {
   --gradient-from-color: rgba(54, 66, 80, 0.6039215686274509);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -2584,6 +2884,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 .focus\:from-blue-500:focus {
   --gradient-from-color: #437BFF;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+}
+
+.focus\:from-pink-500:focus {
+  --gradient-from-color: rgb(246, 50, 141);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+}
+
+.focus\:from-black-500:focus {
+  --gradient-from-color: rgb(54, 65, 80);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
 }
 
 .focus\:from-white:focus {
@@ -2611,6 +2921,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
 }
 
+.focus\:from-LinkedIn:focus {
+  --gradient-from-color: rgb(10, 102, 194);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+}
+
+.focus\:from-dribbble:focus {
+  --gradient-from-color:  #ea4c89;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+}
+
+.focus\:from-Behance:focus {
+  --gradient-from-color: #0057ff;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+}
+
 .focus\:via-DEFAULT:focus {
   --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -2624,6 +2949,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 .focus\:via-blue-500:focus {
   --gradient-via-color: #437BFF;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+}
+
+.focus\:via-pink-500:focus {
+  --gradient-via-color: rgb(246, 50, 141);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+}
+
+.focus\:via-black-500:focus {
+  --gradient-via-color: rgb(54, 65, 80);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
 }
 
 .focus\:via-white:focus {
@@ -2651,6 +2986,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
 }
 
+.focus\:via-LinkedIn:focus {
+  --gradient-via-color: rgb(10, 102, 194);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+}
+
+.focus\:via-dribbble:focus {
+  --gradient-via-color:  #ea4c89;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+}
+
+.focus\:via-Behance:focus {
+  --gradient-via-color: #0057ff;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+}
+
 .focus\:to-DEFAULT:focus {
   --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
 }
@@ -2661,6 +3011,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
 .focus\:to-blue-500:focus {
   --gradient-to-color: #437BFF;
+}
+
+.focus\:to-pink-500:focus {
+  --gradient-to-color: rgb(246, 50, 141);
+}
+
+.focus\:to-black-500:focus {
+  --gradient-to-color: rgb(54, 65, 80);
 }
 
 .focus\:to-white:focus {
@@ -2681,6 +3039,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
 .focus\:to-whatsapp:focus {
   --gradient-to-color: #25D366;
+}
+
+.focus\:to-LinkedIn:focus {
+  --gradient-to-color: rgb(10, 102, 194);
+}
+
+.focus\:to-dribbble:focus {
+  --gradient-to-color:  #ea4c89;
+}
+
+.focus\:to-Behance:focus {
+  --gradient-to-color: #0057ff;
 }
 
 .bg-opacity-0 {
@@ -2935,6 +3305,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   border-color: rgba(67, 123, 255, var(--border-opacity));
 }
 
+.border-pink-500 {
+  --border-opacity: 1;
+  border-color: rgb(246, 50, 141);
+  border-color: rgba(246, 50, 141, var(--border-opacity));
+}
+
+.border-black-500 {
+  --border-opacity: 1;
+  border-color: rgb(54, 65, 80);
+  border-color: rgba(54, 65, 80, var(--border-opacity));
+}
+
 .border-white {
   --border-opacity: 1;
   border-color: #FFFFFF;
@@ -2965,6 +3347,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   border-color: rgba(37, 211, 102, var(--border-opacity));
 }
 
+.border-LinkedIn {
+  --border-opacity: 1;
+  border-color: rgb(10, 102, 194);
+  border-color: rgba(10, 102, 194, var(--border-opacity));
+}
+
+.border-dribbble {
+  border-color:  #ea4c89;
+}
+
+.border-Behance {
+  --border-opacity: 1;
+  border-color: #0057ff;
+  border-color: rgba(0, 87, 255, var(--border-opacity));
+}
+
 .hover\:border-DEFAULT:hover {
   border-color: rgba(54, 66, 80, 0.6039215686274509);
 }
@@ -2979,6 +3377,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --border-opacity: 1;
   border-color: #437BFF;
   border-color: rgba(67, 123, 255, var(--border-opacity));
+}
+
+.hover\:border-pink-500:hover {
+  --border-opacity: 1;
+  border-color: rgb(246, 50, 141);
+  border-color: rgba(246, 50, 141, var(--border-opacity));
+}
+
+.hover\:border-black-500:hover {
+  --border-opacity: 1;
+  border-color: rgb(54, 65, 80);
+  border-color: rgba(54, 65, 80, var(--border-opacity));
 }
 
 .hover\:border-white:hover {
@@ -3011,6 +3421,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   border-color: rgba(37, 211, 102, var(--border-opacity));
 }
 
+.hover\:border-LinkedIn:hover {
+  --border-opacity: 1;
+  border-color: rgb(10, 102, 194);
+  border-color: rgba(10, 102, 194, var(--border-opacity));
+}
+
+.hover\:border-dribbble:hover {
+  border-color:  #ea4c89;
+}
+
+.hover\:border-Behance:hover {
+  --border-opacity: 1;
+  border-color: #0057ff;
+  border-color: rgba(0, 87, 255, var(--border-opacity));
+}
+
 .focus\:border-DEFAULT:focus {
   border-color: rgba(54, 66, 80, 0.6039215686274509);
 }
@@ -3025,6 +3451,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --border-opacity: 1;
   border-color: #437BFF;
   border-color: rgba(67, 123, 255, var(--border-opacity));
+}
+
+.focus\:border-pink-500:focus {
+  --border-opacity: 1;
+  border-color: rgb(246, 50, 141);
+  border-color: rgba(246, 50, 141, var(--border-opacity));
+}
+
+.focus\:border-black-500:focus {
+  --border-opacity: 1;
+  border-color: rgb(54, 65, 80);
+  border-color: rgba(54, 65, 80, var(--border-opacity));
 }
 
 .focus\:border-white:focus {
@@ -3055,6 +3493,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --border-opacity: 1;
   border-color: #25D366;
   border-color: rgba(37, 211, 102, var(--border-opacity));
+}
+
+.focus\:border-LinkedIn:focus {
+  --border-opacity: 1;
+  border-color: rgb(10, 102, 194);
+  border-color: rgba(10, 102, 194, var(--border-opacity));
+}
+
+.focus\:border-dribbble:focus {
+  border-color:  #ea4c89;
+}
+
+.focus\:border-Behance:focus {
+  --border-opacity: 1;
+  border-color: #0057ff;
+  border-color: rgba(0, 87, 255, var(--border-opacity));
 }
 
 .border-opacity-0 {
@@ -4373,6 +4827,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
 .text-4xl {
   font-size: 40px;
+}
+
+.text-7xl {
+  font-size: 72px;
+}
+
+.text-8xl {
+  font-size: 80px;
 }
 
 .text-xl {
@@ -6656,6 +7118,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   color: rgba(67, 123, 255, var(--placeholder-opacity));
 }
 
+.placeholder-pink-500::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(246, 50, 141);
+  color: rgba(246, 50, 141, var(--placeholder-opacity));
+}
+
+.placeholder-pink-500:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(246, 50, 141);
+  color: rgba(246, 50, 141, var(--placeholder-opacity));
+}
+
+.placeholder-pink-500::placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(246, 50, 141);
+  color: rgba(246, 50, 141, var(--placeholder-opacity));
+}
+
+.placeholder-black-500::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(54, 65, 80);
+  color: rgba(54, 65, 80, var(--placeholder-opacity));
+}
+
+.placeholder-black-500:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(54, 65, 80);
+  color: rgba(54, 65, 80, var(--placeholder-opacity));
+}
+
+.placeholder-black-500::placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(54, 65, 80);
+  color: rgba(54, 65, 80, var(--placeholder-opacity));
+}
+
 .placeholder-white::-moz-placeholder {
   --placeholder-opacity: 1;
   color: #FFFFFF;
@@ -6746,6 +7244,54 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   color: rgba(37, 211, 102, var(--placeholder-opacity));
 }
 
+.placeholder-LinkedIn::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(10, 102, 194);
+  color: rgba(10, 102, 194, var(--placeholder-opacity));
+}
+
+.placeholder-LinkedIn:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(10, 102, 194);
+  color: rgba(10, 102, 194, var(--placeholder-opacity));
+}
+
+.placeholder-LinkedIn::placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(10, 102, 194);
+  color: rgba(10, 102, 194, var(--placeholder-opacity));
+}
+
+.placeholder-dribbble::-moz-placeholder {
+  color:  #ea4c89;
+}
+
+.placeholder-dribbble:-ms-input-placeholder {
+  color:  #ea4c89;
+}
+
+.placeholder-dribbble::placeholder {
+  color:  #ea4c89;
+}
+
+.placeholder-Behance::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: #0057ff;
+  color: rgba(0, 87, 255, var(--placeholder-opacity));
+}
+
+.placeholder-Behance:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: #0057ff;
+  color: rgba(0, 87, 255, var(--placeholder-opacity));
+}
+
+.placeholder-Behance::placeholder {
+  --placeholder-opacity: 1;
+  color: #0057ff;
+  color: rgba(0, 87, 255, var(--placeholder-opacity));
+}
+
 .focus\:placeholder-DEFAULT:focus::-moz-placeholder {
   color: rgba(54, 66, 80, 0.6039215686274509);
 }
@@ -6792,6 +7338,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --placeholder-opacity: 1;
   color: #437BFF;
   color: rgba(67, 123, 255, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-pink-500:focus::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(246, 50, 141);
+  color: rgba(246, 50, 141, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-pink-500:focus:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(246, 50, 141);
+  color: rgba(246, 50, 141, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-pink-500:focus::placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(246, 50, 141);
+  color: rgba(246, 50, 141, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-black-500:focus::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(54, 65, 80);
+  color: rgba(54, 65, 80, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-black-500:focus:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(54, 65, 80);
+  color: rgba(54, 65, 80, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-black-500:focus::placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(54, 65, 80);
+  color: rgba(54, 65, 80, var(--placeholder-opacity));
 }
 
 .focus\:placeholder-white:focus::-moz-placeholder {
@@ -6882,6 +7464,54 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --placeholder-opacity: 1;
   color: #25D366;
   color: rgba(37, 211, 102, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-LinkedIn:focus::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(10, 102, 194);
+  color: rgba(10, 102, 194, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-LinkedIn:focus:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(10, 102, 194);
+  color: rgba(10, 102, 194, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-LinkedIn:focus::placeholder {
+  --placeholder-opacity: 1;
+  color: rgb(10, 102, 194);
+  color: rgba(10, 102, 194, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-dribbble:focus::-moz-placeholder {
+  color:  #ea4c89;
+}
+
+.focus\:placeholder-dribbble:focus:-ms-input-placeholder {
+  color:  #ea4c89;
+}
+
+.focus\:placeholder-dribbble:focus::placeholder {
+  color:  #ea4c89;
+}
+
+.focus\:placeholder-Behance:focus::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: #0057ff;
+  color: rgba(0, 87, 255, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-Behance:focus:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: #0057ff;
+  color: rgba(0, 87, 255, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-Behance:focus::placeholder {
+  --placeholder-opacity: 1;
+  color: #0057ff;
+  color: rgba(0, 87, 255, var(--placeholder-opacity));
 }
 
 .placeholder-opacity-0::-moz-placeholder {
@@ -7326,12 +7956,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+.shadow-green_xl {
+  box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+}
+
 .shadow-2xl {
   box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
 }
 
 .shadow-4xl {
   box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+}
+
+.shadow-8xl {
+  box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+}
+
+.shadow-pink_4xl {
+  box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+}
+
+.shadow-pink_8xl {
+  box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
 }
 
 .shadow-img_hover {
@@ -7374,12 +8020,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+.hover\:shadow-green_xl:hover {
+  box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+}
+
 .hover\:shadow-2xl:hover {
   box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
 }
 
 .hover\:shadow-4xl:hover {
   box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+}
+
+.hover\:shadow-8xl:hover {
+  box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+}
+
+.hover\:shadow-pink_4xl:hover {
+  box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+}
+
+.hover\:shadow-pink_8xl:hover {
+  box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
 }
 
 .hover\:shadow-img_hover:hover {
@@ -7422,12 +8084,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+.focus\:shadow-green_xl:focus {
+  box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+}
+
 .focus\:shadow-2xl:focus {
   box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
 }
 
 .focus\:shadow-4xl:focus {
   box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+}
+
+.focus\:shadow-8xl:focus {
+  box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+}
+
+.focus\:shadow-pink_4xl:focus {
+  box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+}
+
+.focus\:shadow-pink_8xl:focus {
+  box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
 }
 
 .focus\:shadow-img_hover:focus {
@@ -7510,6 +8188,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   color: rgba(67, 123, 255, var(--text-opacity));
 }
 
+.text-pink-500 {
+  --text-opacity: 1;
+  color: rgb(246, 50, 141);
+  color: rgba(246, 50, 141, var(--text-opacity));
+}
+
+.text-black-500 {
+  --text-opacity: 1;
+  color: rgb(54, 65, 80);
+  color: rgba(54, 65, 80, var(--text-opacity));
+}
+
 .text-white {
   --text-opacity: 1;
   color: #FFFFFF;
@@ -7540,6 +8230,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   color: rgba(37, 211, 102, var(--text-opacity));
 }
 
+.text-LinkedIn {
+  --text-opacity: 1;
+  color: rgb(10, 102, 194);
+  color: rgba(10, 102, 194, var(--text-opacity));
+}
+
+.text-dribbble {
+  color:  #ea4c89;
+}
+
+.text-Behance {
+  --text-opacity: 1;
+  color: #0057ff;
+  color: rgba(0, 87, 255, var(--text-opacity));
+}
+
 .hover\:text-DEFAULT:hover {
   color: rgba(54, 66, 80, 0.6039215686274509);
 }
@@ -7554,6 +8260,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --text-opacity: 1;
   color: #437BFF;
   color: rgba(67, 123, 255, var(--text-opacity));
+}
+
+.hover\:text-pink-500:hover {
+  --text-opacity: 1;
+  color: rgb(246, 50, 141);
+  color: rgba(246, 50, 141, var(--text-opacity));
+}
+
+.hover\:text-black-500:hover {
+  --text-opacity: 1;
+  color: rgb(54, 65, 80);
+  color: rgba(54, 65, 80, var(--text-opacity));
 }
 
 .hover\:text-white:hover {
@@ -7586,6 +8304,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   color: rgba(37, 211, 102, var(--text-opacity));
 }
 
+.hover\:text-LinkedIn:hover {
+  --text-opacity: 1;
+  color: rgb(10, 102, 194);
+  color: rgba(10, 102, 194, var(--text-opacity));
+}
+
+.hover\:text-dribbble:hover {
+  color:  #ea4c89;
+}
+
+.hover\:text-Behance:hover {
+  --text-opacity: 1;
+  color: #0057ff;
+  color: rgba(0, 87, 255, var(--text-opacity));
+}
+
 .focus\:text-DEFAULT:focus {
   color: rgba(54, 66, 80, 0.6039215686274509);
 }
@@ -7600,6 +8334,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --text-opacity: 1;
   color: #437BFF;
   color: rgba(67, 123, 255, var(--text-opacity));
+}
+
+.focus\:text-pink-500:focus {
+  --text-opacity: 1;
+  color: rgb(246, 50, 141);
+  color: rgba(246, 50, 141, var(--text-opacity));
+}
+
+.focus\:text-black-500:focus {
+  --text-opacity: 1;
+  color: rgb(54, 65, 80);
+  color: rgba(54, 65, 80, var(--text-opacity));
 }
 
 .focus\:text-white:focus {
@@ -7630,6 +8376,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --text-opacity: 1;
   color: #25D366;
   color: rgba(37, 211, 102, var(--text-opacity));
+}
+
+.focus\:text-LinkedIn:focus {
+  --text-opacity: 1;
+  color: rgb(10, 102, 194);
+  color: rgba(10, 102, 194, var(--text-opacity));
+}
+
+.focus\:text-dribbble:focus {
+  color:  #ea4c89;
+}
+
+.focus\:text-Behance:focus {
+  --text-opacity: 1;
+  color: #0057ff;
+  color: rgba(0, 87, 255, var(--text-opacity));
 }
 
 .text-opacity-0 {
@@ -7903,12 +8665,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --font-variant-numeric-fraction: stacked-fractions;
 }
 
+.tracking-tightest {
+  letter-spacing: -.075em;
+}
+
 .tracking-tighter {
-  letter-spacing: -0.05em;
+  letter-spacing: -.05em;
 }
 
 .tracking-tight {
-  letter-spacing: -0.025em;
+  letter-spacing: -.025em;
 }
 
 .tracking-normal {
@@ -7916,15 +8682,19 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 }
 
 .tracking-wide {
-  letter-spacing: 0.025em;
+  letter-spacing: .025em;
 }
 
 .tracking-wider {
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
 }
 
 .tracking-widest {
-  letter-spacing: 0.1em;
+  letter-spacing: .25em;
+}
+
+.tracking-space {
+  letter-spacing: 8px;
 }
 
 .select-none {
@@ -11258,6 +12028,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   fill: #437BFF;
 }
 
+.zalepik_button_icon:hover svg path.zalepik_svg_path_white{
+  fill: #FFFFFF;
+}
+
 @media (min-width: 640px) {
   .zalepik_social{
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -11962,6 +12736,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(67, 123, 255, var(--divide-opacity));
   }
 
+  .sm\:divide-pink-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--divide-opacity));
+  }
+
+  .sm\:divide-black-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--divide-opacity));
+  }
+
   .sm\:divide-white > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #FFFFFF;
@@ -11990,6 +12776,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --divide-opacity: 1;
     border-color: #25D366;
     border-color: rgba(37, 211, 102, var(--divide-opacity));
+  }
+
+  .sm\:divide-LinkedIn > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--divide-opacity));
+  }
+
+  .sm\:divide-dribbble > :not(template) ~ :not(template) {
+    border-color:  #ea4c89;
+  }
+
+  .sm\:divide-Behance > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--divide-opacity));
   }
 
   .sm\:divide-solid > :not(template) ~ :not(template) {
@@ -12161,6 +12963,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(67, 123, 255, var(--bg-opacity));
   }
 
+  .sm\:bg-pink-500 {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .sm\:bg-black-500 {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
+  }
+
   .sm\:bg-white {
     --bg-opacity: 1;
     background-color: #FFFFFF;
@@ -12191,6 +13005,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(37, 211, 102, var(--bg-opacity));
   }
 
+  .sm\:bg-LinkedIn {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .sm\:bg-dribbble {
+    background-color:  #ea4c89;
+  }
+
+  .sm\:bg-Behance {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
+  }
+
   .sm\:hover\:bg-DEFAULT:hover {
     background-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -12205,6 +13035,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #437BFF;
     background-color: rgba(67, 123, 255, var(--bg-opacity));
+  }
+
+  .sm\:hover\:bg-pink-500:hover {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .sm\:hover\:bg-black-500:hover {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
   }
 
   .sm\:hover\:bg-white:hover {
@@ -12237,6 +13079,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(37, 211, 102, var(--bg-opacity));
   }
 
+  .sm\:hover\:bg-LinkedIn:hover {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .sm\:hover\:bg-dribbble:hover {
+    background-color:  #ea4c89;
+  }
+
+  .sm\:hover\:bg-Behance:hover {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
+  }
+
   .sm\:focus\:bg-DEFAULT:focus {
     background-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -12251,6 +13109,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #437BFF;
     background-color: rgba(67, 123, 255, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-pink-500:focus {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-black-500:focus {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-white:focus {
@@ -12281,6 +13151,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #25D366;
     background-color: rgba(37, 211, 102, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-LinkedIn:focus {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-dribbble:focus {
+    background-color:  #ea4c89;
+  }
+
+  .sm\:focus\:bg-Behance:focus {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
   }
 
   .sm\:bg-none {
@@ -12334,6 +13220,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
   }
 
+  .sm\:from-pink-500 {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .sm\:from-black-500 {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
+  }
+
   .sm\:from-white {
     --gradient-from-color: #FFFFFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
@@ -12359,6 +13255,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .sm\:from-LinkedIn {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .sm\:from-dribbble {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .sm\:from-Behance {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .sm\:via-DEFAULT {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -12372,6 +13283,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .sm\:via-blue-500 {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .sm\:via-pink-500 {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .sm\:via-black-500 {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .sm\:via-white {
@@ -12399,6 +13320,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .sm\:via-LinkedIn {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .sm\:via-dribbble {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .sm\:via-Behance {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .sm\:to-DEFAULT {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -12409,6 +13345,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .sm\:to-blue-500 {
     --gradient-to-color: #437BFF;
+  }
+
+  .sm\:to-pink-500 {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .sm\:to-black-500 {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .sm\:to-white {
@@ -12431,6 +13375,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: #25D366;
   }
 
+  .sm\:to-LinkedIn {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .sm\:to-dribbble {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .sm\:to-Behance {
+    --gradient-to-color: #0057ff;
+  }
+
   .sm\:hover\:from-DEFAULT:hover {
     --gradient-from-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -12444,6 +13400,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .sm\:hover\:from-blue-500:hover {
     --gradient-from-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .sm\:hover\:from-pink-500:hover {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .sm\:hover\:from-black-500:hover {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .sm\:hover\:from-white:hover {
@@ -12471,6 +13437,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .sm\:hover\:from-LinkedIn:hover {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .sm\:hover\:from-dribbble:hover {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .sm\:hover\:from-Behance:hover {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .sm\:hover\:via-DEFAULT:hover {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -12484,6 +13465,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .sm\:hover\:via-blue-500:hover {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .sm\:hover\:via-pink-500:hover {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .sm\:hover\:via-black-500:hover {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .sm\:hover\:via-white:hover {
@@ -12511,6 +13502,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .sm\:hover\:via-LinkedIn:hover {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .sm\:hover\:via-dribbble:hover {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .sm\:hover\:via-Behance:hover {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .sm\:hover\:to-DEFAULT:hover {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -12521,6 +13527,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .sm\:hover\:to-blue-500:hover {
     --gradient-to-color: #437BFF;
+  }
+
+  .sm\:hover\:to-pink-500:hover {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .sm\:hover\:to-black-500:hover {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .sm\:hover\:to-white:hover {
@@ -12543,6 +13557,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: #25D366;
   }
 
+  .sm\:hover\:to-LinkedIn:hover {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .sm\:hover\:to-dribbble:hover {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .sm\:hover\:to-Behance:hover {
+    --gradient-to-color: #0057ff;
+  }
+
   .sm\:focus\:from-DEFAULT:focus {
     --gradient-from-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -12556,6 +13582,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .sm\:focus\:from-blue-500:focus {
     --gradient-from-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .sm\:focus\:from-pink-500:focus {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .sm\:focus\:from-black-500:focus {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .sm\:focus\:from-white:focus {
@@ -12583,6 +13619,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .sm\:focus\:from-LinkedIn:focus {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .sm\:focus\:from-dribbble:focus {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .sm\:focus\:from-Behance:focus {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .sm\:focus\:via-DEFAULT:focus {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -12596,6 +13647,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .sm\:focus\:via-blue-500:focus {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .sm\:focus\:via-pink-500:focus {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .sm\:focus\:via-black-500:focus {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .sm\:focus\:via-white:focus {
@@ -12623,6 +13684,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .sm\:focus\:via-LinkedIn:focus {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .sm\:focus\:via-dribbble:focus {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .sm\:focus\:via-Behance:focus {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .sm\:focus\:to-DEFAULT:focus {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -12633,6 +13709,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .sm\:focus\:to-blue-500:focus {
     --gradient-to-color: #437BFF;
+  }
+
+  .sm\:focus\:to-pink-500:focus {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .sm\:focus\:to-black-500:focus {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .sm\:focus\:to-white:focus {
@@ -12653,6 +13737,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .sm\:focus\:to-whatsapp:focus {
     --gradient-to-color: #25D366;
+  }
+
+  .sm\:focus\:to-LinkedIn:focus {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .sm\:focus\:to-dribbble:focus {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .sm\:focus\:to-Behance:focus {
+    --gradient-to-color: #0057ff;
   }
 
   .sm\:bg-opacity-0 {
@@ -12907,6 +14003,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(67, 123, 255, var(--border-opacity));
   }
 
+  .sm\:border-pink-500 {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .sm\:border-black-500 {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
+  }
+
   .sm\:border-white {
     --border-opacity: 1;
     border-color: #FFFFFF;
@@ -12937,6 +14045,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(37, 211, 102, var(--border-opacity));
   }
 
+  .sm\:border-LinkedIn {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .sm\:border-dribbble {
+    border-color:  #ea4c89;
+  }
+
+  .sm\:border-Behance {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
+  }
+
   .sm\:hover\:border-DEFAULT:hover {
     border-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -12951,6 +14075,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #437BFF;
     border-color: rgba(67, 123, 255, var(--border-opacity));
+  }
+
+  .sm\:hover\:border-pink-500:hover {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .sm\:hover\:border-black-500:hover {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
   }
 
   .sm\:hover\:border-white:hover {
@@ -12983,6 +14119,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(37, 211, 102, var(--border-opacity));
   }
 
+  .sm\:hover\:border-LinkedIn:hover {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .sm\:hover\:border-dribbble:hover {
+    border-color:  #ea4c89;
+  }
+
+  .sm\:hover\:border-Behance:hover {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
+  }
+
   .sm\:focus\:border-DEFAULT:focus {
     border-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -12997,6 +14149,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #437BFF;
     border-color: rgba(67, 123, 255, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-pink-500:focus {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-black-500:focus {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
   }
 
   .sm\:focus\:border-white:focus {
@@ -13027,6 +14191,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #25D366;
     border-color: rgba(37, 211, 102, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-LinkedIn:focus {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-dribbble:focus {
+    border-color:  #ea4c89;
+  }
+
+  .sm\:focus\:border-Behance:focus {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
   }
 
   .sm\:border-opacity-0 {
@@ -14345,6 +15525,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .sm\:text-4xl {
     font-size: 40px;
+  }
+
+  .sm\:text-7xl {
+    font-size: 72px;
+  }
+
+  .sm\:text-8xl {
+    font-size: 80px;
   }
 
   .sm\:text-xl {
@@ -16628,6 +17816,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(67, 123, 255, var(--placeholder-opacity));
   }
 
+  .sm\:placeholder-pink-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-pink-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-pink-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-black-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-black-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-black-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
   .sm\:placeholder-white::-moz-placeholder {
     --placeholder-opacity: 1;
     color: #FFFFFF;
@@ -16718,6 +17942,54 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--placeholder-opacity));
   }
 
+  .sm\:placeholder-LinkedIn::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-LinkedIn:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-LinkedIn::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-dribbble::-moz-placeholder {
+    color:  #ea4c89;
+  }
+
+  .sm\:placeholder-dribbble:-ms-input-placeholder {
+    color:  #ea4c89;
+  }
+
+  .sm\:placeholder-dribbble::placeholder {
+    color:  #ea4c89;
+  }
+
+  .sm\:placeholder-Behance::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-Behance:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-Behance::placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
   .sm\:focus\:placeholder-DEFAULT:focus::-moz-placeholder {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -16764,6 +18036,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-pink-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-pink-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-pink-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-black-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-black-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-black-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-white:focus::-moz-placeholder {
@@ -16854,6 +18162,54 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: #25D366;
     color: rgba(37, 211, 102, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-LinkedIn:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-LinkedIn:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-LinkedIn:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-dribbble:focus::-moz-placeholder {
+    color:  #ea4c89;
+  }
+
+  .sm\:focus\:placeholder-dribbble:focus:-ms-input-placeholder {
+    color:  #ea4c89;
+  }
+
+  .sm\:focus\:placeholder-dribbble:focus::placeholder {
+    color:  #ea4c89;
+  }
+
+  .sm\:focus\:placeholder-Behance:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-Behance:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-Behance:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
   }
 
   .sm\:placeholder-opacity-0::-moz-placeholder {
@@ -17298,12 +18654,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .sm\:shadow-green_xl {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .sm\:shadow-2xl {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .sm\:shadow-4xl {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .sm\:shadow-8xl {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .sm\:shadow-pink_4xl {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .sm\:shadow-pink_8xl {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .sm\:shadow-img_hover {
@@ -17346,12 +18718,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .sm\:hover\:shadow-green_xl:hover {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .sm\:hover\:shadow-2xl:hover {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .sm\:hover\:shadow-4xl:hover {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .sm\:hover\:shadow-8xl:hover {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .sm\:hover\:shadow-pink_4xl:hover {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .sm\:hover\:shadow-pink_8xl:hover {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .sm\:hover\:shadow-img_hover:hover {
@@ -17394,12 +18782,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .sm\:focus\:shadow-green_xl:focus {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .sm\:focus\:shadow-2xl:focus {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .sm\:focus\:shadow-4xl:focus {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .sm\:focus\:shadow-8xl:focus {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .sm\:focus\:shadow-pink_4xl:focus {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .sm\:focus\:shadow-pink_8xl:focus {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .sm\:focus\:shadow-img_hover:focus {
@@ -17482,6 +18886,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(67, 123, 255, var(--text-opacity));
   }
 
+  .sm\:text-pink-500 {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .sm\:text-black-500 {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
+  }
+
   .sm\:text-white {
     --text-opacity: 1;
     color: #FFFFFF;
@@ -17512,6 +18928,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--text-opacity));
   }
 
+  .sm\:text-LinkedIn {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .sm\:text-dribbble {
+    color:  #ea4c89;
+  }
+
+  .sm\:text-Behance {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
+  }
+
   .sm\:hover\:text-DEFAULT:hover {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -17526,6 +18958,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--text-opacity));
+  }
+
+  .sm\:hover\:text-pink-500:hover {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .sm\:hover\:text-black-500:hover {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
   }
 
   .sm\:hover\:text-white:hover {
@@ -17558,6 +19002,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--text-opacity));
   }
 
+  .sm\:hover\:text-LinkedIn:hover {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .sm\:hover\:text-dribbble:hover {
+    color:  #ea4c89;
+  }
+
+  .sm\:hover\:text-Behance:hover {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
+  }
+
   .sm\:focus\:text-DEFAULT:focus {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -17572,6 +19032,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-pink-500:focus {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-black-500:focus {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
   }
 
   .sm\:focus\:text-white:focus {
@@ -17602,6 +19074,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #25D366;
     color: rgba(37, 211, 102, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-LinkedIn:focus {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-dribbble:focus {
+    color:  #ea4c89;
+  }
+
+  .sm\:focus\:text-Behance:focus {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
   }
 
   .sm\:text-opacity-0 {
@@ -17875,12 +19363,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --font-variant-numeric-fraction: stacked-fractions;
   }
 
+  .sm\:tracking-tightest {
+    letter-spacing: -.075em;
+  }
+
   .sm\:tracking-tighter {
-    letter-spacing: -0.05em;
+    letter-spacing: -.05em;
   }
 
   .sm\:tracking-tight {
-    letter-spacing: -0.025em;
+    letter-spacing: -.025em;
   }
 
   .sm\:tracking-normal {
@@ -17888,15 +19380,19 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   }
 
   .sm\:tracking-wide {
-    letter-spacing: 0.025em;
+    letter-spacing: .025em;
   }
 
   .sm\:tracking-wider {
-    letter-spacing: 0.05em;
+    letter-spacing: .05em;
   }
 
   .sm\:tracking-widest {
-    letter-spacing: 0.1em;
+    letter-spacing: .25em;
+  }
+
+  .sm\:tracking-space {
+    letter-spacing: 8px;
   }
 
   .sm\:select-none {
@@ -21721,6 +23217,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(67, 123, 255, var(--divide-opacity));
   }
 
+  .md\:divide-pink-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--divide-opacity));
+  }
+
+  .md\:divide-black-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--divide-opacity));
+  }
+
   .md\:divide-white > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #FFFFFF;
@@ -21749,6 +23257,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --divide-opacity: 1;
     border-color: #25D366;
     border-color: rgba(37, 211, 102, var(--divide-opacity));
+  }
+
+  .md\:divide-LinkedIn > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--divide-opacity));
+  }
+
+  .md\:divide-dribbble > :not(template) ~ :not(template) {
+    border-color:  #ea4c89;
+  }
+
+  .md\:divide-Behance > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--divide-opacity));
   }
 
   .md\:divide-solid > :not(template) ~ :not(template) {
@@ -21920,6 +23444,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(67, 123, 255, var(--bg-opacity));
   }
 
+  .md\:bg-pink-500 {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .md\:bg-black-500 {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
+  }
+
   .md\:bg-white {
     --bg-opacity: 1;
     background-color: #FFFFFF;
@@ -21950,6 +23486,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(37, 211, 102, var(--bg-opacity));
   }
 
+  .md\:bg-LinkedIn {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .md\:bg-dribbble {
+    background-color:  #ea4c89;
+  }
+
+  .md\:bg-Behance {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
+  }
+
   .md\:hover\:bg-DEFAULT:hover {
     background-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -21964,6 +23516,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #437BFF;
     background-color: rgba(67, 123, 255, var(--bg-opacity));
+  }
+
+  .md\:hover\:bg-pink-500:hover {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .md\:hover\:bg-black-500:hover {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
   }
 
   .md\:hover\:bg-white:hover {
@@ -21996,6 +23560,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(37, 211, 102, var(--bg-opacity));
   }
 
+  .md\:hover\:bg-LinkedIn:hover {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .md\:hover\:bg-dribbble:hover {
+    background-color:  #ea4c89;
+  }
+
+  .md\:hover\:bg-Behance:hover {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
+  }
+
   .md\:focus\:bg-DEFAULT:focus {
     background-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -22010,6 +23590,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #437BFF;
     background-color: rgba(67, 123, 255, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-pink-500:focus {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-black-500:focus {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
   }
 
   .md\:focus\:bg-white:focus {
@@ -22040,6 +23632,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #25D366;
     background-color: rgba(37, 211, 102, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-LinkedIn:focus {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-dribbble:focus {
+    background-color:  #ea4c89;
+  }
+
+  .md\:focus\:bg-Behance:focus {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
   }
 
   .md\:bg-none {
@@ -22093,6 +23701,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
   }
 
+  .md\:from-pink-500 {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .md\:from-black-500 {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
+  }
+
   .md\:from-white {
     --gradient-from-color: #FFFFFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
@@ -22118,6 +23736,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .md\:from-LinkedIn {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .md\:from-dribbble {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .md\:from-Behance {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .md\:via-DEFAULT {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -22131,6 +23764,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .md\:via-blue-500 {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .md\:via-pink-500 {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .md\:via-black-500 {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .md\:via-white {
@@ -22158,6 +23801,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .md\:via-LinkedIn {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .md\:via-dribbble {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .md\:via-Behance {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .md\:to-DEFAULT {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -22168,6 +23826,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .md\:to-blue-500 {
     --gradient-to-color: #437BFF;
+  }
+
+  .md\:to-pink-500 {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .md\:to-black-500 {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .md\:to-white {
@@ -22190,6 +23856,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: #25D366;
   }
 
+  .md\:to-LinkedIn {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .md\:to-dribbble {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .md\:to-Behance {
+    --gradient-to-color: #0057ff;
+  }
+
   .md\:hover\:from-DEFAULT:hover {
     --gradient-from-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -22203,6 +23881,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .md\:hover\:from-blue-500:hover {
     --gradient-from-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .md\:hover\:from-pink-500:hover {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .md\:hover\:from-black-500:hover {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .md\:hover\:from-white:hover {
@@ -22230,6 +23918,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .md\:hover\:from-LinkedIn:hover {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .md\:hover\:from-dribbble:hover {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .md\:hover\:from-Behance:hover {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .md\:hover\:via-DEFAULT:hover {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -22243,6 +23946,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .md\:hover\:via-blue-500:hover {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .md\:hover\:via-pink-500:hover {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .md\:hover\:via-black-500:hover {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .md\:hover\:via-white:hover {
@@ -22270,6 +23983,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .md\:hover\:via-LinkedIn:hover {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .md\:hover\:via-dribbble:hover {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .md\:hover\:via-Behance:hover {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .md\:hover\:to-DEFAULT:hover {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -22280,6 +24008,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .md\:hover\:to-blue-500:hover {
     --gradient-to-color: #437BFF;
+  }
+
+  .md\:hover\:to-pink-500:hover {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .md\:hover\:to-black-500:hover {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .md\:hover\:to-white:hover {
@@ -22302,6 +24038,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: #25D366;
   }
 
+  .md\:hover\:to-LinkedIn:hover {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .md\:hover\:to-dribbble:hover {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .md\:hover\:to-Behance:hover {
+    --gradient-to-color: #0057ff;
+  }
+
   .md\:focus\:from-DEFAULT:focus {
     --gradient-from-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -22315,6 +24063,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .md\:focus\:from-blue-500:focus {
     --gradient-from-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .md\:focus\:from-pink-500:focus {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .md\:focus\:from-black-500:focus {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .md\:focus\:from-white:focus {
@@ -22342,6 +24100,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .md\:focus\:from-LinkedIn:focus {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .md\:focus\:from-dribbble:focus {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .md\:focus\:from-Behance:focus {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .md\:focus\:via-DEFAULT:focus {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -22355,6 +24128,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .md\:focus\:via-blue-500:focus {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .md\:focus\:via-pink-500:focus {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .md\:focus\:via-black-500:focus {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .md\:focus\:via-white:focus {
@@ -22382,6 +24165,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .md\:focus\:via-LinkedIn:focus {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .md\:focus\:via-dribbble:focus {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .md\:focus\:via-Behance:focus {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .md\:focus\:to-DEFAULT:focus {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -22392,6 +24190,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .md\:focus\:to-blue-500:focus {
     --gradient-to-color: #437BFF;
+  }
+
+  .md\:focus\:to-pink-500:focus {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .md\:focus\:to-black-500:focus {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .md\:focus\:to-white:focus {
@@ -22412,6 +24218,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .md\:focus\:to-whatsapp:focus {
     --gradient-to-color: #25D366;
+  }
+
+  .md\:focus\:to-LinkedIn:focus {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .md\:focus\:to-dribbble:focus {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .md\:focus\:to-Behance:focus {
+    --gradient-to-color: #0057ff;
   }
 
   .md\:bg-opacity-0 {
@@ -22666,6 +24484,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(67, 123, 255, var(--border-opacity));
   }
 
+  .md\:border-pink-500 {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .md\:border-black-500 {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
+  }
+
   .md\:border-white {
     --border-opacity: 1;
     border-color: #FFFFFF;
@@ -22696,6 +24526,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(37, 211, 102, var(--border-opacity));
   }
 
+  .md\:border-LinkedIn {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .md\:border-dribbble {
+    border-color:  #ea4c89;
+  }
+
+  .md\:border-Behance {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
+  }
+
   .md\:hover\:border-DEFAULT:hover {
     border-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -22710,6 +24556,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #437BFF;
     border-color: rgba(67, 123, 255, var(--border-opacity));
+  }
+
+  .md\:hover\:border-pink-500:hover {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .md\:hover\:border-black-500:hover {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
   }
 
   .md\:hover\:border-white:hover {
@@ -22742,6 +24600,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(37, 211, 102, var(--border-opacity));
   }
 
+  .md\:hover\:border-LinkedIn:hover {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .md\:hover\:border-dribbble:hover {
+    border-color:  #ea4c89;
+  }
+
+  .md\:hover\:border-Behance:hover {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
+  }
+
   .md\:focus\:border-DEFAULT:focus {
     border-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -22756,6 +24630,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #437BFF;
     border-color: rgba(67, 123, 255, var(--border-opacity));
+  }
+
+  .md\:focus\:border-pink-500:focus {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .md\:focus\:border-black-500:focus {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
   }
 
   .md\:focus\:border-white:focus {
@@ -22786,6 +24672,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #25D366;
     border-color: rgba(37, 211, 102, var(--border-opacity));
+  }
+
+  .md\:focus\:border-LinkedIn:focus {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .md\:focus\:border-dribbble:focus {
+    border-color:  #ea4c89;
+  }
+
+  .md\:focus\:border-Behance:focus {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
   }
 
   .md\:border-opacity-0 {
@@ -24104,6 +26006,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .md\:text-4xl {
     font-size: 40px;
+  }
+
+  .md\:text-7xl {
+    font-size: 72px;
+  }
+
+  .md\:text-8xl {
+    font-size: 80px;
   }
 
   .md\:text-xl {
@@ -26387,6 +28297,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(67, 123, 255, var(--placeholder-opacity));
   }
 
+  .md\:placeholder-pink-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-pink-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-pink-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-black-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-black-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-black-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
   .md\:placeholder-white::-moz-placeholder {
     --placeholder-opacity: 1;
     color: #FFFFFF;
@@ -26477,6 +28423,54 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--placeholder-opacity));
   }
 
+  .md\:placeholder-LinkedIn::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-LinkedIn:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-LinkedIn::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-dribbble::-moz-placeholder {
+    color:  #ea4c89;
+  }
+
+  .md\:placeholder-dribbble:-ms-input-placeholder {
+    color:  #ea4c89;
+  }
+
+  .md\:placeholder-dribbble::placeholder {
+    color:  #ea4c89;
+  }
+
+  .md\:placeholder-Behance::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-Behance:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-Behance::placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
   .md\:focus\:placeholder-DEFAULT:focus::-moz-placeholder {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -26523,6 +28517,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-pink-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-pink-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-pink-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-black-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-black-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-black-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
   }
 
   .md\:focus\:placeholder-white:focus::-moz-placeholder {
@@ -26613,6 +28643,54 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: #25D366;
     color: rgba(37, 211, 102, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-LinkedIn:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-LinkedIn:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-LinkedIn:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-dribbble:focus::-moz-placeholder {
+    color:  #ea4c89;
+  }
+
+  .md\:focus\:placeholder-dribbble:focus:-ms-input-placeholder {
+    color:  #ea4c89;
+  }
+
+  .md\:focus\:placeholder-dribbble:focus::placeholder {
+    color:  #ea4c89;
+  }
+
+  .md\:focus\:placeholder-Behance:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-Behance:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-Behance:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
   }
 
   .md\:placeholder-opacity-0::-moz-placeholder {
@@ -27057,12 +29135,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .md\:shadow-green_xl {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .md\:shadow-2xl {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .md\:shadow-4xl {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .md\:shadow-8xl {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .md\:shadow-pink_4xl {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .md\:shadow-pink_8xl {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .md\:shadow-img_hover {
@@ -27105,12 +29199,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .md\:hover\:shadow-green_xl:hover {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .md\:hover\:shadow-2xl:hover {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .md\:hover\:shadow-4xl:hover {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .md\:hover\:shadow-8xl:hover {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .md\:hover\:shadow-pink_4xl:hover {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .md\:hover\:shadow-pink_8xl:hover {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .md\:hover\:shadow-img_hover:hover {
@@ -27153,12 +29263,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .md\:focus\:shadow-green_xl:focus {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .md\:focus\:shadow-2xl:focus {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .md\:focus\:shadow-4xl:focus {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .md\:focus\:shadow-8xl:focus {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .md\:focus\:shadow-pink_4xl:focus {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .md\:focus\:shadow-pink_8xl:focus {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .md\:focus\:shadow-img_hover:focus {
@@ -27241,6 +29367,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(67, 123, 255, var(--text-opacity));
   }
 
+  .md\:text-pink-500 {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .md\:text-black-500 {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
+  }
+
   .md\:text-white {
     --text-opacity: 1;
     color: #FFFFFF;
@@ -27271,6 +29409,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--text-opacity));
   }
 
+  .md\:text-LinkedIn {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .md\:text-dribbble {
+    color:  #ea4c89;
+  }
+
+  .md\:text-Behance {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
+  }
+
   .md\:hover\:text-DEFAULT:hover {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -27285,6 +29439,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--text-opacity));
+  }
+
+  .md\:hover\:text-pink-500:hover {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .md\:hover\:text-black-500:hover {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
   }
 
   .md\:hover\:text-white:hover {
@@ -27317,6 +29483,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--text-opacity));
   }
 
+  .md\:hover\:text-LinkedIn:hover {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .md\:hover\:text-dribbble:hover {
+    color:  #ea4c89;
+  }
+
+  .md\:hover\:text-Behance:hover {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
+  }
+
   .md\:focus\:text-DEFAULT:focus {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -27331,6 +29513,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--text-opacity));
+  }
+
+  .md\:focus\:text-pink-500:focus {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .md\:focus\:text-black-500:focus {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
   }
 
   .md\:focus\:text-white:focus {
@@ -27361,6 +29555,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #25D366;
     color: rgba(37, 211, 102, var(--text-opacity));
+  }
+
+  .md\:focus\:text-LinkedIn:focus {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .md\:focus\:text-dribbble:focus {
+    color:  #ea4c89;
+  }
+
+  .md\:focus\:text-Behance:focus {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
   }
 
   .md\:text-opacity-0 {
@@ -27634,12 +29844,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --font-variant-numeric-fraction: stacked-fractions;
   }
 
+  .md\:tracking-tightest {
+    letter-spacing: -.075em;
+  }
+
   .md\:tracking-tighter {
-    letter-spacing: -0.05em;
+    letter-spacing: -.05em;
   }
 
   .md\:tracking-tight {
-    letter-spacing: -0.025em;
+    letter-spacing: -.025em;
   }
 
   .md\:tracking-normal {
@@ -27647,15 +29861,19 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   }
 
   .md\:tracking-wide {
-    letter-spacing: 0.025em;
+    letter-spacing: .025em;
   }
 
   .md\:tracking-wider {
-    letter-spacing: 0.05em;
+    letter-spacing: .05em;
   }
 
   .md\:tracking-widest {
-    letter-spacing: 0.1em;
+    letter-spacing: .25em;
+  }
+
+  .md\:tracking-space {
+    letter-spacing: 8px;
   }
 
   .md\:select-none {
@@ -31480,6 +33698,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(67, 123, 255, var(--divide-opacity));
   }
 
+  .lg\:divide-pink-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--divide-opacity));
+  }
+
+  .lg\:divide-black-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--divide-opacity));
+  }
+
   .lg\:divide-white > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #FFFFFF;
@@ -31508,6 +33738,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --divide-opacity: 1;
     border-color: #25D366;
     border-color: rgba(37, 211, 102, var(--divide-opacity));
+  }
+
+  .lg\:divide-LinkedIn > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--divide-opacity));
+  }
+
+  .lg\:divide-dribbble > :not(template) ~ :not(template) {
+    border-color:  #ea4c89;
+  }
+
+  .lg\:divide-Behance > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--divide-opacity));
   }
 
   .lg\:divide-solid > :not(template) ~ :not(template) {
@@ -31679,6 +33925,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(67, 123, 255, var(--bg-opacity));
   }
 
+  .lg\:bg-pink-500 {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .lg\:bg-black-500 {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
+  }
+
   .lg\:bg-white {
     --bg-opacity: 1;
     background-color: #FFFFFF;
@@ -31709,6 +33967,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(37, 211, 102, var(--bg-opacity));
   }
 
+  .lg\:bg-LinkedIn {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .lg\:bg-dribbble {
+    background-color:  #ea4c89;
+  }
+
+  .lg\:bg-Behance {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
+  }
+
   .lg\:hover\:bg-DEFAULT:hover {
     background-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -31723,6 +33997,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #437BFF;
     background-color: rgba(67, 123, 255, var(--bg-opacity));
+  }
+
+  .lg\:hover\:bg-pink-500:hover {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .lg\:hover\:bg-black-500:hover {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
   }
 
   .lg\:hover\:bg-white:hover {
@@ -31755,6 +34041,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(37, 211, 102, var(--bg-opacity));
   }
 
+  .lg\:hover\:bg-LinkedIn:hover {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .lg\:hover\:bg-dribbble:hover {
+    background-color:  #ea4c89;
+  }
+
+  .lg\:hover\:bg-Behance:hover {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
+  }
+
   .lg\:focus\:bg-DEFAULT:focus {
     background-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -31769,6 +34071,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #437BFF;
     background-color: rgba(67, 123, 255, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-pink-500:focus {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-black-500:focus {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-white:focus {
@@ -31799,6 +34113,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #25D366;
     background-color: rgba(37, 211, 102, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-LinkedIn:focus {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-dribbble:focus {
+    background-color:  #ea4c89;
+  }
+
+  .lg\:focus\:bg-Behance:focus {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
   }
 
   .lg\:bg-none {
@@ -31852,6 +34182,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
   }
 
+  .lg\:from-pink-500 {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .lg\:from-black-500 {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
+  }
+
   .lg\:from-white {
     --gradient-from-color: #FFFFFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
@@ -31877,6 +34217,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .lg\:from-LinkedIn {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .lg\:from-dribbble {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .lg\:from-Behance {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .lg\:via-DEFAULT {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -31890,6 +34245,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .lg\:via-blue-500 {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .lg\:via-pink-500 {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .lg\:via-black-500 {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .lg\:via-white {
@@ -31917,6 +34282,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .lg\:via-LinkedIn {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .lg\:via-dribbble {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .lg\:via-Behance {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .lg\:to-DEFAULT {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -31927,6 +34307,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .lg\:to-blue-500 {
     --gradient-to-color: #437BFF;
+  }
+
+  .lg\:to-pink-500 {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .lg\:to-black-500 {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .lg\:to-white {
@@ -31949,6 +34337,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: #25D366;
   }
 
+  .lg\:to-LinkedIn {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .lg\:to-dribbble {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .lg\:to-Behance {
+    --gradient-to-color: #0057ff;
+  }
+
   .lg\:hover\:from-DEFAULT:hover {
     --gradient-from-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -31962,6 +34362,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .lg\:hover\:from-blue-500:hover {
     --gradient-from-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .lg\:hover\:from-pink-500:hover {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .lg\:hover\:from-black-500:hover {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .lg\:hover\:from-white:hover {
@@ -31989,6 +34399,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .lg\:hover\:from-LinkedIn:hover {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .lg\:hover\:from-dribbble:hover {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .lg\:hover\:from-Behance:hover {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .lg\:hover\:via-DEFAULT:hover {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -32002,6 +34427,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .lg\:hover\:via-blue-500:hover {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .lg\:hover\:via-pink-500:hover {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .lg\:hover\:via-black-500:hover {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .lg\:hover\:via-white:hover {
@@ -32029,6 +34464,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .lg\:hover\:via-LinkedIn:hover {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .lg\:hover\:via-dribbble:hover {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .lg\:hover\:via-Behance:hover {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .lg\:hover\:to-DEFAULT:hover {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -32039,6 +34489,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .lg\:hover\:to-blue-500:hover {
     --gradient-to-color: #437BFF;
+  }
+
+  .lg\:hover\:to-pink-500:hover {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .lg\:hover\:to-black-500:hover {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .lg\:hover\:to-white:hover {
@@ -32061,6 +34519,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: #25D366;
   }
 
+  .lg\:hover\:to-LinkedIn:hover {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .lg\:hover\:to-dribbble:hover {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .lg\:hover\:to-Behance:hover {
+    --gradient-to-color: #0057ff;
+  }
+
   .lg\:focus\:from-DEFAULT:focus {
     --gradient-from-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -32074,6 +34544,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .lg\:focus\:from-blue-500:focus {
     --gradient-from-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .lg\:focus\:from-pink-500:focus {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .lg\:focus\:from-black-500:focus {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .lg\:focus\:from-white:focus {
@@ -32101,6 +34581,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .lg\:focus\:from-LinkedIn:focus {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .lg\:focus\:from-dribbble:focus {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .lg\:focus\:from-Behance:focus {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .lg\:focus\:via-DEFAULT:focus {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -32114,6 +34609,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .lg\:focus\:via-blue-500:focus {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .lg\:focus\:via-pink-500:focus {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .lg\:focus\:via-black-500:focus {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .lg\:focus\:via-white:focus {
@@ -32141,6 +34646,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .lg\:focus\:via-LinkedIn:focus {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .lg\:focus\:via-dribbble:focus {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .lg\:focus\:via-Behance:focus {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .lg\:focus\:to-DEFAULT:focus {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -32151,6 +34671,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .lg\:focus\:to-blue-500:focus {
     --gradient-to-color: #437BFF;
+  }
+
+  .lg\:focus\:to-pink-500:focus {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .lg\:focus\:to-black-500:focus {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .lg\:focus\:to-white:focus {
@@ -32171,6 +34699,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .lg\:focus\:to-whatsapp:focus {
     --gradient-to-color: #25D366;
+  }
+
+  .lg\:focus\:to-LinkedIn:focus {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .lg\:focus\:to-dribbble:focus {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .lg\:focus\:to-Behance:focus {
+    --gradient-to-color: #0057ff;
   }
 
   .lg\:bg-opacity-0 {
@@ -32425,6 +34965,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(67, 123, 255, var(--border-opacity));
   }
 
+  .lg\:border-pink-500 {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .lg\:border-black-500 {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
+  }
+
   .lg\:border-white {
     --border-opacity: 1;
     border-color: #FFFFFF;
@@ -32455,6 +35007,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(37, 211, 102, var(--border-opacity));
   }
 
+  .lg\:border-LinkedIn {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .lg\:border-dribbble {
+    border-color:  #ea4c89;
+  }
+
+  .lg\:border-Behance {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
+  }
+
   .lg\:hover\:border-DEFAULT:hover {
     border-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -32469,6 +35037,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #437BFF;
     border-color: rgba(67, 123, 255, var(--border-opacity));
+  }
+
+  .lg\:hover\:border-pink-500:hover {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .lg\:hover\:border-black-500:hover {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
   }
 
   .lg\:hover\:border-white:hover {
@@ -32501,6 +35081,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(37, 211, 102, var(--border-opacity));
   }
 
+  .lg\:hover\:border-LinkedIn:hover {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .lg\:hover\:border-dribbble:hover {
+    border-color:  #ea4c89;
+  }
+
+  .lg\:hover\:border-Behance:hover {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
+  }
+
   .lg\:focus\:border-DEFAULT:focus {
     border-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -32515,6 +35111,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #437BFF;
     border-color: rgba(67, 123, 255, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-pink-500:focus {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-black-500:focus {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
   }
 
   .lg\:focus\:border-white:focus {
@@ -32545,6 +35153,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #25D366;
     border-color: rgba(37, 211, 102, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-LinkedIn:focus {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-dribbble:focus {
+    border-color:  #ea4c89;
+  }
+
+  .lg\:focus\:border-Behance:focus {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
   }
 
   .lg\:border-opacity-0 {
@@ -33863,6 +36487,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .lg\:text-4xl {
     font-size: 40px;
+  }
+
+  .lg\:text-7xl {
+    font-size: 72px;
+  }
+
+  .lg\:text-8xl {
+    font-size: 80px;
   }
 
   .lg\:text-xl {
@@ -36146,6 +38778,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(67, 123, 255, var(--placeholder-opacity));
   }
 
+  .lg\:placeholder-pink-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-pink-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-pink-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-black-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-black-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-black-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
   .lg\:placeholder-white::-moz-placeholder {
     --placeholder-opacity: 1;
     color: #FFFFFF;
@@ -36236,6 +38904,54 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--placeholder-opacity));
   }
 
+  .lg\:placeholder-LinkedIn::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-LinkedIn:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-LinkedIn::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-dribbble::-moz-placeholder {
+    color:  #ea4c89;
+  }
+
+  .lg\:placeholder-dribbble:-ms-input-placeholder {
+    color:  #ea4c89;
+  }
+
+  .lg\:placeholder-dribbble::placeholder {
+    color:  #ea4c89;
+  }
+
+  .lg\:placeholder-Behance::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-Behance:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-Behance::placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
   .lg\:focus\:placeholder-DEFAULT:focus::-moz-placeholder {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -36282,6 +38998,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-pink-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-pink-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-pink-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-black-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-black-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-black-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-white:focus::-moz-placeholder {
@@ -36372,6 +39124,54 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: #25D366;
     color: rgba(37, 211, 102, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-LinkedIn:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-LinkedIn:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-LinkedIn:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-dribbble:focus::-moz-placeholder {
+    color:  #ea4c89;
+  }
+
+  .lg\:focus\:placeholder-dribbble:focus:-ms-input-placeholder {
+    color:  #ea4c89;
+  }
+
+  .lg\:focus\:placeholder-dribbble:focus::placeholder {
+    color:  #ea4c89;
+  }
+
+  .lg\:focus\:placeholder-Behance:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-Behance:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-Behance:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
   }
 
   .lg\:placeholder-opacity-0::-moz-placeholder {
@@ -36816,12 +39616,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .lg\:shadow-green_xl {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .lg\:shadow-2xl {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .lg\:shadow-4xl {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .lg\:shadow-8xl {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .lg\:shadow-pink_4xl {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .lg\:shadow-pink_8xl {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .lg\:shadow-img_hover {
@@ -36864,12 +39680,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .lg\:hover\:shadow-green_xl:hover {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .lg\:hover\:shadow-2xl:hover {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .lg\:hover\:shadow-4xl:hover {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .lg\:hover\:shadow-8xl:hover {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .lg\:hover\:shadow-pink_4xl:hover {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .lg\:hover\:shadow-pink_8xl:hover {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .lg\:hover\:shadow-img_hover:hover {
@@ -36912,12 +39744,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .lg\:focus\:shadow-green_xl:focus {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .lg\:focus\:shadow-2xl:focus {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .lg\:focus\:shadow-4xl:focus {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .lg\:focus\:shadow-8xl:focus {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .lg\:focus\:shadow-pink_4xl:focus {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .lg\:focus\:shadow-pink_8xl:focus {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .lg\:focus\:shadow-img_hover:focus {
@@ -37000,6 +39848,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(67, 123, 255, var(--text-opacity));
   }
 
+  .lg\:text-pink-500 {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .lg\:text-black-500 {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
+  }
+
   .lg\:text-white {
     --text-opacity: 1;
     color: #FFFFFF;
@@ -37030,6 +39890,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--text-opacity));
   }
 
+  .lg\:text-LinkedIn {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .lg\:text-dribbble {
+    color:  #ea4c89;
+  }
+
+  .lg\:text-Behance {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
+  }
+
   .lg\:hover\:text-DEFAULT:hover {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -37044,6 +39920,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--text-opacity));
+  }
+
+  .lg\:hover\:text-pink-500:hover {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .lg\:hover\:text-black-500:hover {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
   }
 
   .lg\:hover\:text-white:hover {
@@ -37076,6 +39964,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--text-opacity));
   }
 
+  .lg\:hover\:text-LinkedIn:hover {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .lg\:hover\:text-dribbble:hover {
+    color:  #ea4c89;
+  }
+
+  .lg\:hover\:text-Behance:hover {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
+  }
+
   .lg\:focus\:text-DEFAULT:focus {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -37090,6 +39994,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-pink-500:focus {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-black-500:focus {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
   }
 
   .lg\:focus\:text-white:focus {
@@ -37120,6 +40036,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #25D366;
     color: rgba(37, 211, 102, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-LinkedIn:focus {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-dribbble:focus {
+    color:  #ea4c89;
+  }
+
+  .lg\:focus\:text-Behance:focus {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
   }
 
   .lg\:text-opacity-0 {
@@ -37393,12 +40325,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --font-variant-numeric-fraction: stacked-fractions;
   }
 
+  .lg\:tracking-tightest {
+    letter-spacing: -.075em;
+  }
+
   .lg\:tracking-tighter {
-    letter-spacing: -0.05em;
+    letter-spacing: -.05em;
   }
 
   .lg\:tracking-tight {
-    letter-spacing: -0.025em;
+    letter-spacing: -.025em;
   }
 
   .lg\:tracking-normal {
@@ -37406,15 +40342,19 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   }
 
   .lg\:tracking-wide {
-    letter-spacing: 0.025em;
+    letter-spacing: .025em;
   }
 
   .lg\:tracking-wider {
-    letter-spacing: 0.05em;
+    letter-spacing: .05em;
   }
 
   .lg\:tracking-widest {
-    letter-spacing: 0.1em;
+    letter-spacing: .25em;
+  }
+
+  .lg\:tracking-space {
+    letter-spacing: 8px;
   }
 
   .lg\:select-none {
@@ -41239,6 +44179,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(67, 123, 255, var(--divide-opacity));
   }
 
+  .xl\:divide-pink-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--divide-opacity));
+  }
+
+  .xl\:divide-black-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--divide-opacity));
+  }
+
   .xl\:divide-white > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #FFFFFF;
@@ -41267,6 +44219,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --divide-opacity: 1;
     border-color: #25D366;
     border-color: rgba(37, 211, 102, var(--divide-opacity));
+  }
+
+  .xl\:divide-LinkedIn > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--divide-opacity));
+  }
+
+  .xl\:divide-dribbble > :not(template) ~ :not(template) {
+    border-color:  #ea4c89;
+  }
+
+  .xl\:divide-Behance > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--divide-opacity));
   }
 
   .xl\:divide-solid > :not(template) ~ :not(template) {
@@ -41438,6 +44406,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(67, 123, 255, var(--bg-opacity));
   }
 
+  .xl\:bg-pink-500 {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .xl\:bg-black-500 {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
+  }
+
   .xl\:bg-white {
     --bg-opacity: 1;
     background-color: #FFFFFF;
@@ -41468,6 +44448,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(37, 211, 102, var(--bg-opacity));
   }
 
+  .xl\:bg-LinkedIn {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .xl\:bg-dribbble {
+    background-color:  #ea4c89;
+  }
+
+  .xl\:bg-Behance {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
+  }
+
   .xl\:hover\:bg-DEFAULT:hover {
     background-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -41482,6 +44478,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #437BFF;
     background-color: rgba(67, 123, 255, var(--bg-opacity));
+  }
+
+  .xl\:hover\:bg-pink-500:hover {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .xl\:hover\:bg-black-500:hover {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
   }
 
   .xl\:hover\:bg-white:hover {
@@ -41514,6 +44522,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(37, 211, 102, var(--bg-opacity));
   }
 
+  .xl\:hover\:bg-LinkedIn:hover {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .xl\:hover\:bg-dribbble:hover {
+    background-color:  #ea4c89;
+  }
+
+  .xl\:hover\:bg-Behance:hover {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
+  }
+
   .xl\:focus\:bg-DEFAULT:focus {
     background-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -41528,6 +44552,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #437BFF;
     background-color: rgba(67, 123, 255, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-pink-500:focus {
+    --bg-opacity: 1;
+    background-color: rgb(246, 50, 141);
+    background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-black-500:focus {
+    --bg-opacity: 1;
+    background-color: rgb(54, 65, 80);
+    background-color: rgba(54, 65, 80, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-white:focus {
@@ -41558,6 +44594,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: #25D366;
     background-color: rgba(37, 211, 102, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-LinkedIn:focus {
+    --bg-opacity: 1;
+    background-color: rgb(10, 102, 194);
+    background-color: rgba(10, 102, 194, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-dribbble:focus {
+    background-color:  #ea4c89;
+  }
+
+  .xl\:focus\:bg-Behance:focus {
+    --bg-opacity: 1;
+    background-color: #0057ff;
+    background-color: rgba(0, 87, 255, var(--bg-opacity));
   }
 
   .xl\:bg-none {
@@ -41611,6 +44663,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
   }
 
+  .xl\:from-pink-500 {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .xl\:from-black-500 {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
+  }
+
   .xl\:from-white {
     --gradient-from-color: #FFFFFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
@@ -41636,6 +44698,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .xl\:from-LinkedIn {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .xl\:from-dribbble {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .xl\:from-Behance {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .xl\:via-DEFAULT {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -41649,6 +44726,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .xl\:via-blue-500 {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .xl\:via-pink-500 {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .xl\:via-black-500 {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .xl\:via-white {
@@ -41676,6 +44763,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .xl\:via-LinkedIn {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .xl\:via-dribbble {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .xl\:via-Behance {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .xl\:to-DEFAULT {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -41686,6 +44788,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .xl\:to-blue-500 {
     --gradient-to-color: #437BFF;
+  }
+
+  .xl\:to-pink-500 {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .xl\:to-black-500 {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .xl\:to-white {
@@ -41708,6 +44818,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: #25D366;
   }
 
+  .xl\:to-LinkedIn {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .xl\:to-dribbble {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .xl\:to-Behance {
+    --gradient-to-color: #0057ff;
+  }
+
   .xl\:hover\:from-DEFAULT:hover {
     --gradient-from-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -41721,6 +44843,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .xl\:hover\:from-blue-500:hover {
     --gradient-from-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .xl\:hover\:from-pink-500:hover {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .xl\:hover\:from-black-500:hover {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .xl\:hover\:from-white:hover {
@@ -41748,6 +44880,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .xl\:hover\:from-LinkedIn:hover {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .xl\:hover\:from-dribbble:hover {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .xl\:hover\:from-Behance:hover {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .xl\:hover\:via-DEFAULT:hover {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -41761,6 +44908,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .xl\:hover\:via-blue-500:hover {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .xl\:hover\:via-pink-500:hover {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .xl\:hover\:via-black-500:hover {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .xl\:hover\:via-white:hover {
@@ -41788,6 +44945,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .xl\:hover\:via-LinkedIn:hover {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .xl\:hover\:via-dribbble:hover {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .xl\:hover\:via-Behance:hover {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .xl\:hover\:to-DEFAULT:hover {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -41798,6 +44970,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .xl\:hover\:to-blue-500:hover {
     --gradient-to-color: #437BFF;
+  }
+
+  .xl\:hover\:to-pink-500:hover {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .xl\:hover\:to-black-500:hover {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .xl\:hover\:to-white:hover {
@@ -41820,6 +45000,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: #25D366;
   }
 
+  .xl\:hover\:to-LinkedIn:hover {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .xl\:hover\:to-dribbble:hover {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .xl\:hover\:to-Behance:hover {
+    --gradient-to-color: #0057ff;
+  }
+
   .xl\:focus\:from-DEFAULT:focus {
     --gradient-from-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -41833,6 +45025,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .xl\:focus\:from-blue-500:focus {
     --gradient-from-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .xl\:focus\:from-pink-500:focus {
+    --gradient-from-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .xl\:focus\:from-black-500:focus {
+    --gradient-from-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .xl\:focus\:from-white:focus {
@@ -41860,6 +45062,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .xl\:focus\:from-LinkedIn:focus {
+    --gradient-from-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .xl\:focus\:from-dribbble:focus {
+    --gradient-from-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .xl\:focus\:from-Behance:focus {
+    --gradient-from-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .xl\:focus\:via-DEFAULT:focus {
     --gradient-via-color: rgba(54, 66, 80, 0.6039215686274509);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 66, 80, 0));
@@ -41873,6 +45090,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .xl\:focus\:via-blue-500:focus {
     --gradient-via-color: #437BFF;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(67, 123, 255, 0));
+  }
+
+  .xl\:focus\:via-pink-500:focus {
+    --gradient-via-color: rgb(246, 50, 141);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .xl\:focus\:via-black-500:focus {
+    --gradient-via-color: rgb(54, 65, 80);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
   }
 
   .xl\:focus\:via-white:focus {
@@ -41900,6 +45127,21 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(37, 211, 102, 0));
   }
 
+  .xl\:focus\:via-LinkedIn:focus {
+    --gradient-via-color: rgb(10, 102, 194);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(10, 102, 194, 0));
+  }
+
+  .xl\:focus\:via-dribbble:focus {
+    --gradient-via-color:  #ea4c89;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
+  }
+
+  .xl\:focus\:via-Behance:focus {
+    --gradient-via-color: #0057ff;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 87, 255, 0));
+  }
+
   .xl\:focus\:to-DEFAULT:focus {
     --gradient-to-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -41910,6 +45152,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .xl\:focus\:to-blue-500:focus {
     --gradient-to-color: #437BFF;
+  }
+
+  .xl\:focus\:to-pink-500:focus {
+    --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .xl\:focus\:to-black-500:focus {
+    --gradient-to-color: rgb(54, 65, 80);
   }
 
   .xl\:focus\:to-white:focus {
@@ -41930,6 +45180,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .xl\:focus\:to-whatsapp:focus {
     --gradient-to-color: #25D366;
+  }
+
+  .xl\:focus\:to-LinkedIn:focus {
+    --gradient-to-color: rgb(10, 102, 194);
+  }
+
+  .xl\:focus\:to-dribbble:focus {
+    --gradient-to-color:  #ea4c89;
+  }
+
+  .xl\:focus\:to-Behance:focus {
+    --gradient-to-color: #0057ff;
   }
 
   .xl\:bg-opacity-0 {
@@ -42184,6 +45446,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(67, 123, 255, var(--border-opacity));
   }
 
+  .xl\:border-pink-500 {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .xl\:border-black-500 {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
+  }
+
   .xl\:border-white {
     --border-opacity: 1;
     border-color: #FFFFFF;
@@ -42214,6 +45488,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(37, 211, 102, var(--border-opacity));
   }
 
+  .xl\:border-LinkedIn {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .xl\:border-dribbble {
+    border-color:  #ea4c89;
+  }
+
+  .xl\:border-Behance {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
+  }
+
   .xl\:hover\:border-DEFAULT:hover {
     border-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -42228,6 +45518,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #437BFF;
     border-color: rgba(67, 123, 255, var(--border-opacity));
+  }
+
+  .xl\:hover\:border-pink-500:hover {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .xl\:hover\:border-black-500:hover {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
   }
 
   .xl\:hover\:border-white:hover {
@@ -42260,6 +45562,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(37, 211, 102, var(--border-opacity));
   }
 
+  .xl\:hover\:border-LinkedIn:hover {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .xl\:hover\:border-dribbble:hover {
+    border-color:  #ea4c89;
+  }
+
+  .xl\:hover\:border-Behance:hover {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
+  }
+
   .xl\:focus\:border-DEFAULT:focus {
     border-color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -42274,6 +45592,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #437BFF;
     border-color: rgba(67, 123, 255, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-pink-500:focus {
+    --border-opacity: 1;
+    border-color: rgb(246, 50, 141);
+    border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-black-500:focus {
+    --border-opacity: 1;
+    border-color: rgb(54, 65, 80);
+    border-color: rgba(54, 65, 80, var(--border-opacity));
   }
 
   .xl\:focus\:border-white:focus {
@@ -42304,6 +45634,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: #25D366;
     border-color: rgba(37, 211, 102, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-LinkedIn:focus {
+    --border-opacity: 1;
+    border-color: rgb(10, 102, 194);
+    border-color: rgba(10, 102, 194, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-dribbble:focus {
+    border-color:  #ea4c89;
+  }
+
+  .xl\:focus\:border-Behance:focus {
+    --border-opacity: 1;
+    border-color: #0057ff;
+    border-color: rgba(0, 87, 255, var(--border-opacity));
   }
 
   .xl\:border-opacity-0 {
@@ -43622,6 +46968,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .xl\:text-4xl {
     font-size: 40px;
+  }
+
+  .xl\:text-7xl {
+    font-size: 72px;
+  }
+
+  .xl\:text-8xl {
+    font-size: 80px;
   }
 
   .xl\:text-xl {
@@ -45905,6 +49259,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(67, 123, 255, var(--placeholder-opacity));
   }
 
+  .xl\:placeholder-pink-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-pink-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-pink-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-black-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-black-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-black-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
   .xl\:placeholder-white::-moz-placeholder {
     --placeholder-opacity: 1;
     color: #FFFFFF;
@@ -45995,6 +49385,54 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--placeholder-opacity));
   }
 
+  .xl\:placeholder-LinkedIn::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-LinkedIn:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-LinkedIn::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-dribbble::-moz-placeholder {
+    color:  #ea4c89;
+  }
+
+  .xl\:placeholder-dribbble:-ms-input-placeholder {
+    color:  #ea4c89;
+  }
+
+  .xl\:placeholder-dribbble::placeholder {
+    color:  #ea4c89;
+  }
+
+  .xl\:placeholder-Behance::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-Behance:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-Behance::placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
   .xl\:focus\:placeholder-DEFAULT:focus::-moz-placeholder {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -46041,6 +49479,42 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-pink-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-pink-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-pink-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-black-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-black-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-black-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-white:focus::-moz-placeholder {
@@ -46131,6 +49605,54 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: #25D366;
     color: rgba(37, 211, 102, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-LinkedIn:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-LinkedIn:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-LinkedIn:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-dribbble:focus::-moz-placeholder {
+    color:  #ea4c89;
+  }
+
+  .xl\:focus\:placeholder-dribbble:focus:-ms-input-placeholder {
+    color:  #ea4c89;
+  }
+
+  .xl\:focus\:placeholder-dribbble:focus::placeholder {
+    color:  #ea4c89;
+  }
+
+  .xl\:focus\:placeholder-Behance:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-Behance:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-Behance:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--placeholder-opacity));
   }
 
   .xl\:placeholder-opacity-0::-moz-placeholder {
@@ -46575,12 +50097,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .xl\:shadow-green_xl {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .xl\:shadow-2xl {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .xl\:shadow-4xl {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .xl\:shadow-8xl {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .xl\:shadow-pink_4xl {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .xl\:shadow-pink_8xl {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .xl\:shadow-img_hover {
@@ -46623,12 +50161,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .xl\:hover\:shadow-green_xl:hover {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .xl\:hover\:shadow-2xl:hover {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .xl\:hover\:shadow-4xl:hover {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .xl\:hover\:shadow-8xl:hover {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .xl\:hover\:shadow-pink_4xl:hover {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .xl\:hover\:shadow-pink_8xl:hover {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .xl\:hover\:shadow-img_hover:hover {
@@ -46671,12 +50225,28 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
+  .xl\:focus\:shadow-green_xl:focus {
+    box-shadow: 0 16px 32px -4px rgba(37, 213, 232, 0.16), 0 8px 12px 4px rgba(37, 213, 232, 0.16);
+  }
+
   .xl\:focus\:shadow-2xl:focus {
     box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
   }
 
   .xl\:focus\:shadow-4xl:focus {
     box-shadow: 0 12px 64px -8px rgba(37, 213, 232, 1);
+  }
+
+  .xl\:focus\:shadow-8xl:focus {
+    box-shadow: 0 16px 64px -8px rgba(37, 213, 232, 0.8);
+  }
+
+  .xl\:focus\:shadow-pink_4xl:focus {
+    box-shadow: 0 12px 32px -4px rgba(246, 50, 141, 1);
+  }
+
+  .xl\:focus\:shadow-pink_8xl:focus {
+    box-shadow: 0 16px 64px -8px rgba(246, 50, 141, 0.8);
   }
 
   .xl\:focus\:shadow-img_hover:focus {
@@ -46759,6 +50329,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(67, 123, 255, var(--text-opacity));
   }
 
+  .xl\:text-pink-500 {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .xl\:text-black-500 {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
+  }
+
   .xl\:text-white {
     --text-opacity: 1;
     color: #FFFFFF;
@@ -46789,6 +50371,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--text-opacity));
   }
 
+  .xl\:text-LinkedIn {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .xl\:text-dribbble {
+    color:  #ea4c89;
+  }
+
+  .xl\:text-Behance {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
+  }
+
   .xl\:hover\:text-DEFAULT:hover {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -46803,6 +50401,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--text-opacity));
+  }
+
+  .xl\:hover\:text-pink-500:hover {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .xl\:hover\:text-black-500:hover {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
   }
 
   .xl\:hover\:text-white:hover {
@@ -46835,6 +50445,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(37, 211, 102, var(--text-opacity));
   }
 
+  .xl\:hover\:text-LinkedIn:hover {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .xl\:hover\:text-dribbble:hover {
+    color:  #ea4c89;
+  }
+
+  .xl\:hover\:text-Behance:hover {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
+  }
+
   .xl\:focus\:text-DEFAULT:focus {
     color: rgba(54, 66, 80, 0.6039215686274509);
   }
@@ -46849,6 +50475,18 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #437BFF;
     color: rgba(67, 123, 255, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-pink-500:focus {
+    --text-opacity: 1;
+    color: rgb(246, 50, 141);
+    color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-black-500:focus {
+    --text-opacity: 1;
+    color: rgb(54, 65, 80);
+    color: rgba(54, 65, 80, var(--text-opacity));
   }
 
   .xl\:focus\:text-white:focus {
@@ -46879,6 +50517,22 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: #25D366;
     color: rgba(37, 211, 102, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-LinkedIn:focus {
+    --text-opacity: 1;
+    color: rgb(10, 102, 194);
+    color: rgba(10, 102, 194, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-dribbble:focus {
+    color:  #ea4c89;
+  }
+
+  .xl\:focus\:text-Behance:focus {
+    --text-opacity: 1;
+    color: #0057ff;
+    color: rgba(0, 87, 255, var(--text-opacity));
   }
 
   .xl\:text-opacity-0 {
@@ -47152,12 +50806,16 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --font-variant-numeric-fraction: stacked-fractions;
   }
 
+  .xl\:tracking-tightest {
+    letter-spacing: -.075em;
+  }
+
   .xl\:tracking-tighter {
-    letter-spacing: -0.05em;
+    letter-spacing: -.05em;
   }
 
   .xl\:tracking-tight {
-    letter-spacing: -0.025em;
+    letter-spacing: -.025em;
   }
 
   .xl\:tracking-normal {
@@ -47165,15 +50823,19 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   }
 
   .xl\:tracking-wide {
-    letter-spacing: 0.025em;
+    letter-spacing: .025em;
   }
 
   .xl\:tracking-wider {
-    letter-spacing: 0.05em;
+    letter-spacing: .05em;
   }
 
   .xl\:tracking-widest {
-    letter-spacing: 0.1em;
+    letter-spacing: .25em;
+  }
+
+  .xl\:tracking-space {
+    letter-spacing: 8px;
   }
 
   .xl\:select-none {
