@@ -778,6 +778,7 @@ p{
   display: block;
   z-index: 50;
   margin-right: 8vw;
+  top: 8px;
 }
 
 .zalepik_button.modal-button{
@@ -1706,12 +1707,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   background: white;
   background-position: right;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .header_video{
   background: white;
   background-position: right;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .header_portofolio{
@@ -1834,6 +1837,206 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .zalepik_palceholder_light::placeholder{
   color: #FFFFFF !important;
   opacity: 1;
+}
+
+#pricing #zalepik_pricing_table_1>div{
+  margin-top: 32px;
+  position: relative;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+#pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+#pricing #zalepik_pricing_table_1>.zalepik_table_mobile_development{
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+#pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_title{
+  --text-opacity: 1;
+  color: #437BFF;
+  color: rgba(67, 123, 255, var(--text-opacity));
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0px 12px 0px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: center;
+  height: 24px;
+}
+
+#pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_pricing_table_title{
+  --text-opacity: 1;
+  color: #437BFF;
+  color: rgba(67, 123, 255, var(--text-opacity));
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0px 12px 0px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: center;
+  height: 24px;
+}
+
+#pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_title_2{
+  --text-opacity: 1;
+  color: #437BFF;
+  color: rgba(67, 123, 255, var(--text-opacity));
+  text-transform: uppercase;
+  display: block;
+  margin: 24px 0px 12px 0px;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: 28px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: center;
+}
+
+#pricing #zalepik_pricing_table_1 svg.block.mx-auto{
+  --text-opacity: 1;
+  color: #437BFF;
+  color: rgba(67, 123, 255, var(--text-opacity));
+  text-transform: uppercase;
+  display: block;
+  margin-top: 24px;
+}
+
+#pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_mulaidari,
+  #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_pricing_table_mulaidari{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 4px 0px;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: center;
+  color: #FFBA00;
+  height: 20px;
+}
+
+#pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_price,
+  #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_pricing_table_price{
+  --text-opacity: 1;
+  color: #25D5E8;
+  color: rgba(37, 213, 232, var(--text-opacity));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 24px 0px;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: 60px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: center;
+  height: 20px;
+}
+
+#pricing #zalepik_pricing_table_1>div{
+  --bg-opacity: 1;
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  padding: 4px;
+  box-shadow: -8px 4px 16px rgba(37, 213, 232, 0.04);
+}
+
+#pricing #zalepik_pricing_table_1>div>img,
+  #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_wrap_table_h>img{
+  width: 100%;
+}
+
+#pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_list{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0px 28px;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+#pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_list>div,
+  #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_pricing_table_list>div{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+#pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_pricing_table_list>div{
+  justify-content: flex-start;
+}
+
+#pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_list>div:last-child,
+  #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_pricing_table_list>div:last-child{
+  margin-bottom: 0px;
+}
+
+#pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_list>div>img,
+  #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_pricing_table_list>div>img{
+  margin-right: 4px;
+}
+
+#pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_list>div>.zalepik_pricing_table_list_note,
+  #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_pricing_table_list>div>.zalepik_pricing_table_list_note{
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.4000000059604645px;
+  opacity: 72%;
+}
+
+.zalepik_pricing_table_wrap_button{
+  position: relative;
+  margin-top: 24px;
+  padding-bottom: 24px;
+}
+
+.zalepik-border-important-button{
+  border: 10px solid #25D5E8;
+  background: linear-gradient(110.01deg, #25D5E8 33.69%, #437BFF 73.59%);
+  border-radius: 20px;
+}
+
+#pricing .zalepik_pricing_title .zalepik_wrap_svg svg{
+  position: relative;
+  display: inline-block;
+}
+
+#pricing .zalepik_pricing_title svg{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#pricing #zalepik_pricing_table_1{
+  margin-top: 120px;
 }
 
 .space-y-0 > :not(template) ~ :not(template) {
@@ -2378,6 +2581,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   border-color: rgba(246, 50, 141, var(--divide-opacity));
 }
 
+.divide-yellow-500 > :not(template) ~ :not(template) {
+  --divide-opacity: 1;
+  border-color: #FFBA00;
+  border-color: rgba(255, 186, 0, var(--divide-opacity));
+}
+
 .divide-black-500 > :not(template) ~ :not(template) {
   --divide-opacity: 1;
   border-color: rgb(54, 65, 80);
@@ -2605,6 +2814,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   background-color: rgba(246, 50, 141, var(--bg-opacity));
 }
 
+.bg-yellow-500 {
+  --bg-opacity: 1;
+  background-color: #FFBA00;
+  background-color: rgba(255, 186, 0, var(--bg-opacity));
+}
+
 .bg-black-500 {
   --bg-opacity: 1;
   background-color: rgb(54, 65, 80);
@@ -2679,6 +2894,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   background-color: rgba(246, 50, 141, var(--bg-opacity));
 }
 
+.hover\:bg-yellow-500:hover {
+  --bg-opacity: 1;
+  background-color: #FFBA00;
+  background-color: rgba(255, 186, 0, var(--bg-opacity));
+}
+
 .hover\:bg-black-500:hover {
   --bg-opacity: 1;
   background-color: rgb(54, 65, 80);
@@ -2751,6 +2972,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --bg-opacity: 1;
   background-color: rgb(246, 50, 141);
   background-color: rgba(246, 50, 141, var(--bg-opacity));
+}
+
+.focus\:bg-yellow-500:focus {
+  --bg-opacity: 1;
+  background-color: #FFBA00;
+  background-color: rgba(255, 186, 0, var(--bg-opacity));
 }
 
 .focus\:bg-black-500:focus {
@@ -2861,6 +3088,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
 }
 
+.from-yellow-500 {
+  --gradient-from-color: #FFBA00;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+}
+
 .from-black-500 {
   --gradient-from-color: rgb(54, 65, 80);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -2926,6 +3158,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
 }
 
+.via-yellow-500 {
+  --gradient-via-color: #FFBA00;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+}
+
 .via-black-500 {
   --gradient-via-color: rgb(54, 65, 80);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -2987,6 +3224,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-to-color: rgb(246, 50, 141);
 }
 
+.to-yellow-500 {
+  --gradient-to-color: #FFBA00;
+}
+
 .to-black-500 {
   --gradient-to-color: rgb(54, 65, 80);
 }
@@ -3041,6 +3282,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 .hover\:from-pink-500:hover {
   --gradient-from-color: rgb(246, 50, 141);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+}
+
+.hover\:from-yellow-500:hover {
+  --gradient-from-color: #FFBA00;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
 }
 
 .hover\:from-black-500:hover {
@@ -3108,6 +3354,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
 }
 
+.hover\:via-yellow-500:hover {
+  --gradient-via-color: #FFBA00;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+}
+
 .hover\:via-black-500:hover {
   --gradient-via-color: rgb(54, 65, 80);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -3169,6 +3420,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-to-color: rgb(246, 50, 141);
 }
 
+.hover\:to-yellow-500:hover {
+  --gradient-to-color: #FFBA00;
+}
+
 .hover\:to-black-500:hover {
   --gradient-to-color: rgb(54, 65, 80);
 }
@@ -3223,6 +3478,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 .focus\:from-pink-500:focus {
   --gradient-from-color: rgb(246, 50, 141);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+}
+
+.focus\:from-yellow-500:focus {
+  --gradient-from-color: #FFBA00;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
 }
 
 .focus\:from-black-500:focus {
@@ -3290,6 +3550,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
 }
 
+.focus\:via-yellow-500:focus {
+  --gradient-via-color: #FFBA00;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+}
+
 .focus\:via-black-500:focus {
   --gradient-via-color: rgb(54, 65, 80);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -3349,6 +3614,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
 .focus\:to-pink-500:focus {
   --gradient-to-color: rgb(246, 50, 141);
+}
+
+.focus\:to-yellow-500:focus {
+  --gradient-to-color: #FFBA00;
 }
 
 .focus\:to-black-500:focus {
@@ -3645,6 +3914,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   border-color: rgba(246, 50, 141, var(--border-opacity));
 }
 
+.border-yellow-500 {
+  --border-opacity: 1;
+  border-color: #FFBA00;
+  border-color: rgba(255, 186, 0, var(--border-opacity));
+}
+
 .border-black-500 {
   --border-opacity: 1;
   border-color: rgb(54, 65, 80);
@@ -3719,6 +3994,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   border-color: rgba(246, 50, 141, var(--border-opacity));
 }
 
+.hover\:border-yellow-500:hover {
+  --border-opacity: 1;
+  border-color: #FFBA00;
+  border-color: rgba(255, 186, 0, var(--border-opacity));
+}
+
 .hover\:border-black-500:hover {
   --border-opacity: 1;
   border-color: rgb(54, 65, 80);
@@ -3791,6 +4072,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --border-opacity: 1;
   border-color: rgb(246, 50, 141);
   border-color: rgba(246, 50, 141, var(--border-opacity));
+}
+
+.focus\:border-yellow-500:focus {
+  --border-opacity: 1;
+  border-color: #FFBA00;
+  border-color: rgba(255, 186, 0, var(--border-opacity));
 }
 
 .focus\:border-black-500:focus {
@@ -7470,6 +7757,24 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   color: rgba(246, 50, 141, var(--placeholder-opacity));
 }
 
+.placeholder-yellow-500::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: #FFBA00;
+  color: rgba(255, 186, 0, var(--placeholder-opacity));
+}
+
+.placeholder-yellow-500:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: #FFBA00;
+  color: rgba(255, 186, 0, var(--placeholder-opacity));
+}
+
+.placeholder-yellow-500::placeholder {
+  --placeholder-opacity: 1;
+  color: #FFBA00;
+  color: rgba(255, 186, 0, var(--placeholder-opacity));
+}
+
 .placeholder-black-500::-moz-placeholder {
   --placeholder-opacity: 1;
   color: rgb(54, 65, 80);
@@ -7690,6 +7995,24 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --placeholder-opacity: 1;
   color: rgb(246, 50, 141);
   color: rgba(246, 50, 141, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-500:focus::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: #FFBA00;
+  color: rgba(255, 186, 0, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-500:focus:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: #FFBA00;
+  color: rgba(255, 186, 0, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-500:focus::placeholder {
+  --placeholder-opacity: 1;
+  color: #FFBA00;
+  color: rgba(255, 186, 0, var(--placeholder-opacity));
 }
 
 .focus\:placeholder-black-500:focus::-moz-placeholder {
@@ -8528,6 +8851,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   color: rgba(246, 50, 141, var(--text-opacity));
 }
 
+.text-yellow-500 {
+  --text-opacity: 1;
+  color: #FFBA00;
+  color: rgba(255, 186, 0, var(--text-opacity));
+}
+
 .text-black-500 {
   --text-opacity: 1;
   color: rgb(54, 65, 80);
@@ -8602,6 +8931,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   color: rgba(246, 50, 141, var(--text-opacity));
 }
 
+.hover\:text-yellow-500:hover {
+  --text-opacity: 1;
+  color: #FFBA00;
+  color: rgba(255, 186, 0, var(--text-opacity));
+}
+
 .hover\:text-black-500:hover {
   --text-opacity: 1;
   color: rgb(54, 65, 80);
@@ -8674,6 +9009,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   --text-opacity: 1;
   color: rgb(246, 50, 141);
   color: rgba(246, 50, 141, var(--text-opacity));
+}
+
+.focus\:text-yellow-500:focus {
+  --text-opacity: 1;
+  color: #FFBA00;
+  color: rgba(255, 186, 0, var(--text-opacity));
 }
 
 .focus\:text-black-500:focus {
@@ -12366,6 +12707,15 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   fill: #FFFFFF;
 }
 
+#pricing .zalepik_pricing_title:after{
+  --bg-opacity: 1;
+  background-color: #25D5E8;
+  background-color: rgba(37, 213, 232, var(--bg-opacity));
+  width: 100%;
+  height: 4px;
+  bottom: 20px;
+}
+
 @media (min-width: 640px) {
   .zalepik_social{
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -12415,6 +12765,86 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .zalepik_clients{
     grid-gap: 12px;
+  }
+
+  #pricing{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  #pricing #zalepik_pricing_table_1{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-gap: 12px;
+    margin-top: 120px;
+  }
+
+  #pricing .zalepik_pricing_title,
+  #pricing .zalepik_pricing_title:before{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+  }
+
+  #pricing .zalepik_pricing_title:after{
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
+    width: 100%;
+    height: 4px;
+    bottom: 20px;
+  }
+
+  #pricing .zalepik_pricing_title svg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 24px 40px 0px #25D5E866;
+    border-radius: 20px;
+    margin-top: 0px;
+  }
+
+  #pricing .zalepik_pricing_title .zalepik_wrap_svg{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .zalepik_pricing_table_wrap_button,
+  .zalepik_price_desain .zalepik_pricing_table_wrap_button .zalepik_button_banner_home{
+    position: relative;
+    margin-top: 24px;
+    padding-bottom: 24px;
+    min-height: 80px;
+  }
+
+  .zalepik_pricing_table_wrap_button{
+    position: relative;
+  }
+
+  .zalepik_price_desain .zalepik_pricing_table_wrap_button{
+    margin-top: 0px;
+    bottom: 0;
+  }
+
+  #pricing .zalepik_pricing_title,
+  #pricing .zalepik_pricing_title:before{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  #pricing #zalepik_pricing_table_1>div{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #pricing #zalepik_pricing_table_1>.zalepik_table_mobile_development{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -12490,6 +12920,17 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .img_home_banner_main{
     margin-top: -400px;
+  }
+
+  #pricing .zalepik_pricing_title,
+  #pricing .zalepik_pricing_title:before{
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+
+  #pricing #zalepik_pricing_table_1{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 120px;
   }
 }
 
@@ -12574,6 +13015,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .zalepik_button_banner_home{
     margin-top: 40px;
+  }
+
+  .zalepik_pricing_table_wrap_button{
+    position: relative;
   }
 }
 
@@ -13148,6 +13593,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--divide-opacity));
   }
 
+  .sm\:divide-yellow-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--divide-opacity));
+  }
+
   .sm\:divide-black-500 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -13375,6 +13826,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(246, 50, 141, var(--bg-opacity));
   }
 
+  .sm\:bg-yellow-500 {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
+  }
+
   .sm\:bg-black-500 {
     --bg-opacity: 1;
     background-color: rgb(54, 65, 80);
@@ -13449,6 +13906,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(246, 50, 141, var(--bg-opacity));
   }
 
+  .sm\:hover\:bg-yellow-500:hover {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
+  }
+
   .sm\:hover\:bg-black-500:hover {
     --bg-opacity: 1;
     background-color: rgb(54, 65, 80);
@@ -13521,6 +13984,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: rgb(246, 50, 141);
     background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-yellow-500:focus {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-black-500:focus {
@@ -13631,6 +14100,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .sm\:from-yellow-500 {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .sm\:from-black-500 {
     --gradient-from-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -13696,6 +14170,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .sm\:via-yellow-500 {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .sm\:via-black-500 {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -13757,6 +14236,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: rgb(246, 50, 141);
   }
 
+  .sm\:to-yellow-500 {
+    --gradient-to-color: #FFBA00;
+  }
+
   .sm\:to-black-500 {
     --gradient-to-color: rgb(54, 65, 80);
   }
@@ -13811,6 +14294,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .sm\:hover\:from-pink-500:hover {
     --gradient-from-color: rgb(246, 50, 141);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .sm\:hover\:from-yellow-500:hover {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
   }
 
   .sm\:hover\:from-black-500:hover {
@@ -13878,6 +14366,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .sm\:hover\:via-yellow-500:hover {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .sm\:hover\:via-black-500:hover {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -13939,6 +14432,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: rgb(246, 50, 141);
   }
 
+  .sm\:hover\:to-yellow-500:hover {
+    --gradient-to-color: #FFBA00;
+  }
+
   .sm\:hover\:to-black-500:hover {
     --gradient-to-color: rgb(54, 65, 80);
   }
@@ -13993,6 +14490,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .sm\:focus\:from-pink-500:focus {
     --gradient-from-color: rgb(246, 50, 141);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .sm\:focus\:from-yellow-500:focus {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
   }
 
   .sm\:focus\:from-black-500:focus {
@@ -14060,6 +14562,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .sm\:focus\:via-yellow-500:focus {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .sm\:focus\:via-black-500:focus {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -14119,6 +14626,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .sm\:focus\:to-pink-500:focus {
     --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .sm\:focus\:to-yellow-500:focus {
+    --gradient-to-color: #FFBA00;
   }
 
   .sm\:focus\:to-black-500:focus {
@@ -14415,6 +14926,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--border-opacity));
   }
 
+  .sm\:border-yellow-500 {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
+  }
+
   .sm\:border-black-500 {
     --border-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -14489,6 +15006,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--border-opacity));
   }
 
+  .sm\:hover\:border-yellow-500:hover {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
+  }
+
   .sm\:hover\:border-black-500:hover {
     --border-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -14561,6 +15084,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: rgb(246, 50, 141);
     border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-yellow-500:focus {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
   }
 
   .sm\:focus\:border-black-500:focus {
@@ -18240,6 +18769,24 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--placeholder-opacity));
   }
 
+  .sm\:placeholder-yellow-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-yellow-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-yellow-500::placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
   .sm\:placeholder-black-500::-moz-placeholder {
     --placeholder-opacity: 1;
     color: rgb(54, 65, 80);
@@ -18460,6 +19007,24 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: rgb(246, 50, 141);
     color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-yellow-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-yellow-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-yellow-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-black-500:focus::-moz-placeholder {
@@ -19298,6 +19863,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--text-opacity));
   }
 
+  .sm\:text-yellow-500 {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
+  }
+
   .sm\:text-black-500 {
     --text-opacity: 1;
     color: rgb(54, 65, 80);
@@ -19372,6 +19943,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--text-opacity));
   }
 
+  .sm\:hover\:text-yellow-500:hover {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
+  }
+
   .sm\:hover\:text-black-500:hover {
     --text-opacity: 1;
     color: rgb(54, 65, 80);
@@ -19444,6 +20021,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: rgb(246, 50, 141);
     color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-yellow-500:focus {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
   }
 
   .sm\:focus\:text-black-500:focus {
@@ -23629,6 +24212,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--divide-opacity));
   }
 
+  .md\:divide-yellow-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--divide-opacity));
+  }
+
   .md\:divide-black-500 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -23856,6 +24445,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(246, 50, 141, var(--bg-opacity));
   }
 
+  .md\:bg-yellow-500 {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
+  }
+
   .md\:bg-black-500 {
     --bg-opacity: 1;
     background-color: rgb(54, 65, 80);
@@ -23930,6 +24525,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(246, 50, 141, var(--bg-opacity));
   }
 
+  .md\:hover\:bg-yellow-500:hover {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
+  }
+
   .md\:hover\:bg-black-500:hover {
     --bg-opacity: 1;
     background-color: rgb(54, 65, 80);
@@ -24002,6 +24603,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: rgb(246, 50, 141);
     background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-yellow-500:focus {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
   }
 
   .md\:focus\:bg-black-500:focus {
@@ -24112,6 +24719,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .md\:from-yellow-500 {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .md\:from-black-500 {
     --gradient-from-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -24177,6 +24789,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .md\:via-yellow-500 {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .md\:via-black-500 {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -24238,6 +24855,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: rgb(246, 50, 141);
   }
 
+  .md\:to-yellow-500 {
+    --gradient-to-color: #FFBA00;
+  }
+
   .md\:to-black-500 {
     --gradient-to-color: rgb(54, 65, 80);
   }
@@ -24292,6 +24913,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .md\:hover\:from-pink-500:hover {
     --gradient-from-color: rgb(246, 50, 141);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .md\:hover\:from-yellow-500:hover {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
   }
 
   .md\:hover\:from-black-500:hover {
@@ -24359,6 +24985,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .md\:hover\:via-yellow-500:hover {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .md\:hover\:via-black-500:hover {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -24420,6 +25051,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: rgb(246, 50, 141);
   }
 
+  .md\:hover\:to-yellow-500:hover {
+    --gradient-to-color: #FFBA00;
+  }
+
   .md\:hover\:to-black-500:hover {
     --gradient-to-color: rgb(54, 65, 80);
   }
@@ -24474,6 +25109,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .md\:focus\:from-pink-500:focus {
     --gradient-from-color: rgb(246, 50, 141);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .md\:focus\:from-yellow-500:focus {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
   }
 
   .md\:focus\:from-black-500:focus {
@@ -24541,6 +25181,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .md\:focus\:via-yellow-500:focus {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .md\:focus\:via-black-500:focus {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -24600,6 +25245,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .md\:focus\:to-pink-500:focus {
     --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .md\:focus\:to-yellow-500:focus {
+    --gradient-to-color: #FFBA00;
   }
 
   .md\:focus\:to-black-500:focus {
@@ -24896,6 +25545,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--border-opacity));
   }
 
+  .md\:border-yellow-500 {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
+  }
+
   .md\:border-black-500 {
     --border-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -24970,6 +25625,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--border-opacity));
   }
 
+  .md\:hover\:border-yellow-500:hover {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
+  }
+
   .md\:hover\:border-black-500:hover {
     --border-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -25042,6 +25703,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: rgb(246, 50, 141);
     border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .md\:focus\:border-yellow-500:focus {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
   }
 
   .md\:focus\:border-black-500:focus {
@@ -28721,6 +29388,24 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--placeholder-opacity));
   }
 
+  .md\:placeholder-yellow-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-yellow-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-yellow-500::placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
   .md\:placeholder-black-500::-moz-placeholder {
     --placeholder-opacity: 1;
     color: rgb(54, 65, 80);
@@ -28941,6 +29626,24 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: rgb(246, 50, 141);
     color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-yellow-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-yellow-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-yellow-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
   }
 
   .md\:focus\:placeholder-black-500:focus::-moz-placeholder {
@@ -29779,6 +30482,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--text-opacity));
   }
 
+  .md\:text-yellow-500 {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
+  }
+
   .md\:text-black-500 {
     --text-opacity: 1;
     color: rgb(54, 65, 80);
@@ -29853,6 +30562,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--text-opacity));
   }
 
+  .md\:hover\:text-yellow-500:hover {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
+  }
+
   .md\:hover\:text-black-500:hover {
     --text-opacity: 1;
     color: rgb(54, 65, 80);
@@ -29925,6 +30640,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: rgb(246, 50, 141);
     color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .md\:focus\:text-yellow-500:focus {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
   }
 
   .md\:focus\:text-black-500:focus {
@@ -34110,6 +34831,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--divide-opacity));
   }
 
+  .lg\:divide-yellow-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--divide-opacity));
+  }
+
   .lg\:divide-black-500 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -34337,6 +35064,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(246, 50, 141, var(--bg-opacity));
   }
 
+  .lg\:bg-yellow-500 {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
+  }
+
   .lg\:bg-black-500 {
     --bg-opacity: 1;
     background-color: rgb(54, 65, 80);
@@ -34411,6 +35144,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(246, 50, 141, var(--bg-opacity));
   }
 
+  .lg\:hover\:bg-yellow-500:hover {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
+  }
+
   .lg\:hover\:bg-black-500:hover {
     --bg-opacity: 1;
     background-color: rgb(54, 65, 80);
@@ -34483,6 +35222,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: rgb(246, 50, 141);
     background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-yellow-500:focus {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-black-500:focus {
@@ -34593,6 +35338,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .lg\:from-yellow-500 {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .lg\:from-black-500 {
     --gradient-from-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -34658,6 +35408,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .lg\:via-yellow-500 {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .lg\:via-black-500 {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -34719,6 +35474,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: rgb(246, 50, 141);
   }
 
+  .lg\:to-yellow-500 {
+    --gradient-to-color: #FFBA00;
+  }
+
   .lg\:to-black-500 {
     --gradient-to-color: rgb(54, 65, 80);
   }
@@ -34773,6 +35532,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .lg\:hover\:from-pink-500:hover {
     --gradient-from-color: rgb(246, 50, 141);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .lg\:hover\:from-yellow-500:hover {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
   }
 
   .lg\:hover\:from-black-500:hover {
@@ -34840,6 +35604,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .lg\:hover\:via-yellow-500:hover {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .lg\:hover\:via-black-500:hover {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -34901,6 +35670,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: rgb(246, 50, 141);
   }
 
+  .lg\:hover\:to-yellow-500:hover {
+    --gradient-to-color: #FFBA00;
+  }
+
   .lg\:hover\:to-black-500:hover {
     --gradient-to-color: rgb(54, 65, 80);
   }
@@ -34955,6 +35728,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .lg\:focus\:from-pink-500:focus {
     --gradient-from-color: rgb(246, 50, 141);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .lg\:focus\:from-yellow-500:focus {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
   }
 
   .lg\:focus\:from-black-500:focus {
@@ -35022,6 +35800,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .lg\:focus\:via-yellow-500:focus {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .lg\:focus\:via-black-500:focus {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -35081,6 +35864,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .lg\:focus\:to-pink-500:focus {
     --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .lg\:focus\:to-yellow-500:focus {
+    --gradient-to-color: #FFBA00;
   }
 
   .lg\:focus\:to-black-500:focus {
@@ -35377,6 +36164,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--border-opacity));
   }
 
+  .lg\:border-yellow-500 {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
+  }
+
   .lg\:border-black-500 {
     --border-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -35451,6 +36244,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--border-opacity));
   }
 
+  .lg\:hover\:border-yellow-500:hover {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
+  }
+
   .lg\:hover\:border-black-500:hover {
     --border-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -35523,6 +36322,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: rgb(246, 50, 141);
     border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-yellow-500:focus {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
   }
 
   .lg\:focus\:border-black-500:focus {
@@ -39202,6 +40007,24 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--placeholder-opacity));
   }
 
+  .lg\:placeholder-yellow-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-yellow-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-yellow-500::placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
   .lg\:placeholder-black-500::-moz-placeholder {
     --placeholder-opacity: 1;
     color: rgb(54, 65, 80);
@@ -39422,6 +40245,24 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: rgb(246, 50, 141);
     color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-yellow-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-yellow-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-yellow-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-black-500:focus::-moz-placeholder {
@@ -40260,6 +41101,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--text-opacity));
   }
 
+  .lg\:text-yellow-500 {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
+  }
+
   .lg\:text-black-500 {
     --text-opacity: 1;
     color: rgb(54, 65, 80);
@@ -40334,6 +41181,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--text-opacity));
   }
 
+  .lg\:hover\:text-yellow-500:hover {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
+  }
+
   .lg\:hover\:text-black-500:hover {
     --text-opacity: 1;
     color: rgb(54, 65, 80);
@@ -40406,6 +41259,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: rgb(246, 50, 141);
     color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-yellow-500:focus {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
   }
 
   .lg\:focus\:text-black-500:focus {
@@ -44591,6 +45450,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--divide-opacity));
   }
 
+  .xl\:divide-yellow-500 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--divide-opacity));
+  }
+
   .xl\:divide-black-500 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -44818,6 +45683,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(246, 50, 141, var(--bg-opacity));
   }
 
+  .xl\:bg-yellow-500 {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
+  }
+
   .xl\:bg-black-500 {
     --bg-opacity: 1;
     background-color: rgb(54, 65, 80);
@@ -44892,6 +45763,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     background-color: rgba(246, 50, 141, var(--bg-opacity));
   }
 
+  .xl\:hover\:bg-yellow-500:hover {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
+  }
+
   .xl\:hover\:bg-black-500:hover {
     --bg-opacity: 1;
     background-color: rgb(54, 65, 80);
@@ -44964,6 +45841,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --bg-opacity: 1;
     background-color: rgb(246, 50, 141);
     background-color: rgba(246, 50, 141, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-yellow-500:focus {
+    --bg-opacity: 1;
+    background-color: #FFBA00;
+    background-color: rgba(255, 186, 0, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-black-500:focus {
@@ -45074,6 +45957,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .xl\:from-yellow-500 {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .xl\:from-black-500 {
     --gradient-from-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -45139,6 +46027,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .xl\:via-yellow-500 {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .xl\:via-black-500 {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -45200,6 +46093,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: rgb(246, 50, 141);
   }
 
+  .xl\:to-yellow-500 {
+    --gradient-to-color: #FFBA00;
+  }
+
   .xl\:to-black-500 {
     --gradient-to-color: rgb(54, 65, 80);
   }
@@ -45254,6 +46151,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .xl\:hover\:from-pink-500:hover {
     --gradient-from-color: rgb(246, 50, 141);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .xl\:hover\:from-yellow-500:hover {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
   }
 
   .xl\:hover\:from-black-500:hover {
@@ -45321,6 +46223,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .xl\:hover\:via-yellow-500:hover {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .xl\:hover\:via-black-500:hover {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -45382,6 +46289,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-to-color: rgb(246, 50, 141);
   }
 
+  .xl\:hover\:to-yellow-500:hover {
+    --gradient-to-color: #FFBA00;
+  }
+
   .xl\:hover\:to-black-500:hover {
     --gradient-to-color: rgb(54, 65, 80);
   }
@@ -45436,6 +46347,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   .xl\:focus\:from-pink-500:focus {
     --gradient-from-color: rgb(246, 50, 141);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
+  }
+
+  .xl\:focus\:from-yellow-500:focus {
+    --gradient-from-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
   }
 
   .xl\:focus\:from-black-500:focus {
@@ -45503,6 +46419,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 50, 141, 0));
   }
 
+  .xl\:focus\:via-yellow-500:focus {
+    --gradient-via-color: #FFBA00;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 186, 0, 0));
+  }
+
   .xl\:focus\:via-black-500:focus {
     --gradient-via-color: rgb(54, 65, 80);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(54, 65, 80, 0));
@@ -45562,6 +46483,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .xl\:focus\:to-pink-500:focus {
     --gradient-to-color: rgb(246, 50, 141);
+  }
+
+  .xl\:focus\:to-yellow-500:focus {
+    --gradient-to-color: #FFBA00;
   }
 
   .xl\:focus\:to-black-500:focus {
@@ -45858,6 +46783,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--border-opacity));
   }
 
+  .xl\:border-yellow-500 {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
+  }
+
   .xl\:border-black-500 {
     --border-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -45932,6 +46863,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     border-color: rgba(246, 50, 141, var(--border-opacity));
   }
 
+  .xl\:hover\:border-yellow-500:hover {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
+  }
+
   .xl\:hover\:border-black-500:hover {
     --border-opacity: 1;
     border-color: rgb(54, 65, 80);
@@ -46004,6 +46941,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --border-opacity: 1;
     border-color: rgb(246, 50, 141);
     border-color: rgba(246, 50, 141, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-yellow-500:focus {
+    --border-opacity: 1;
+    border-color: #FFBA00;
+    border-color: rgba(255, 186, 0, var(--border-opacity));
   }
 
   .xl\:focus\:border-black-500:focus {
@@ -49683,6 +50626,24 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--placeholder-opacity));
   }
 
+  .xl\:placeholder-yellow-500::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-yellow-500:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-yellow-500::placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
   .xl\:placeholder-black-500::-moz-placeholder {
     --placeholder-opacity: 1;
     color: rgb(54, 65, 80);
@@ -49903,6 +50864,24 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --placeholder-opacity: 1;
     color: rgb(246, 50, 141);
     color: rgba(246, 50, 141, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-yellow-500:focus::-moz-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-yellow-500:focus:-ms-input-placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-yellow-500:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-black-500:focus::-moz-placeholder {
@@ -50741,6 +51720,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--text-opacity));
   }
 
+  .xl\:text-yellow-500 {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
+  }
+
   .xl\:text-black-500 {
     --text-opacity: 1;
     color: rgb(54, 65, 80);
@@ -50815,6 +51800,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     color: rgba(246, 50, 141, var(--text-opacity));
   }
 
+  .xl\:hover\:text-yellow-500:hover {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
+  }
+
   .xl\:hover\:text-black-500:hover {
     --text-opacity: 1;
     color: rgb(54, 65, 80);
@@ -50887,6 +51878,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     --text-opacity: 1;
     color: rgb(246, 50, 141);
     color: rgba(246, 50, 141, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-yellow-500:focus {
+    --text-opacity: 1;
+    color: #FFBA00;
+    color: rgba(255, 186, 0, var(--text-opacity));
   }
 
   .xl\:focus\:text-black-500:focus {

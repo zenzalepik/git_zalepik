@@ -1,193 +1,85 @@
 <!doctype html>
 <html>
+
 <head>
-  <!-- ... -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="./build/tailwind.css" rel="stylesheet">
-  <link href="./build/tailwind_sm.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <title>Hubungi Kami | Zalepik.com</title>
-  <link rel="icon" type="image/png" href="./dist/img/logo-color-small.png">
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-  <style>
-    @media only screen and (max-width: 640px) {
-      header>img{
-        content: url("./dist/img/slider-home-1-zalepik_640px.png") !important;
-      }
-    }
-  </style>
-  
+    <!-- ... -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./build/tailwind.css" rel="stylesheet">
+    <link href="./build/tailwind_sm.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Beranda | Zalepik.com</title>
+    <link rel="icon" type="image/png" href="./dist/img/logo-color-small.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        @media only screen and (max-width: 640px) {
+            header>img {
+                content: url("./dist/img/slider-home-1-zalepik_640px.png") !important;
+            }
+        }
+    </style>
+
 </head>
+
 <body class="text-DEFAULT tracking-wide text-base bg-white duration-1000">
     <!-- Nav -->
     <nav class="zalepik_nav">
-      <div class="zalepik_wrap_nav">
-          <div class="zalepik_wrap_logo">
-              <a href="./index.html"><img src="./dist/img/logo-color-small.svg" alt="Logo Zalepik"></a>
-              <a href="./index.html" class="">Zalepik</a>
-          </div>
-          <ul class="zalepik_wrap_menu_nav">
-              <li class="zalepik_menu hover:text-blue-500"><a href="./index.html">Beranda</a></li>
-              <li class="zalepik_menu hover:text-blue-500"><a href="./portofolio.html">Portofolio</a></li>
-              <li class="zalepik_menu hover:text-blue-500"><a href="./harga.html">Harga & Promo</a></li>
-              <li class="zalepik_menu hover:text-blue-500"><a href="./gratisan.html">Gratisan</a></li>
-              <li class="zalepik_menu hover:text-blue-500"><a href="./artikel.html">Artikel</a></li>
-              <li class="zalepik_menu hover:text-blue-500"><a href="./video.html">Video</a></li>
-              <li class="zalepik_menu ml-6 zalepik_button px-3">
-                  <a class="zalepikDropwonButton" onclick="zalepikDropwonFunction()">
-                      <img class="inline-block pr-2" src="./dist/img/icons/icon-language-indonesian.svg" alt="Indonesia">
-                      <span class="inline-block text-black">
-                          Indonesia
-                      </span>
-                      <svg class="inline-block pl-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z" fill="rgba(255,255,255,1)"/></svg>
-                  </a>
-                  <div id="zalepikDropdown" class="zalepik_dropdown_bahasa_wrap zalepikContent">
-                      <a href="./arabic/index.html" class="zalepik_dropdown_bahasa zalepik_button_icon hover:shadow-xl hover:border-blue-500 hover:text-blue-500">
-                          <img class="inline-block pr-2" src="./dist/img/icons/icon-language-english.svg" alt="English">
-                          <span class="inline-block text-black">
-                              Arabic
-                          </span>
-                      </a>
-                      <a href="./index.html" class="zalepik_dropdown_bahasa zalepik_button_icon hover:shadow-xl hover:border-blue-500 hover:text-blue-500">
-                          <img class="inline-block pr-2" src="./dist/img/icons/icon-language-indonesian.svg" alt="Indonesia">
-                          <span class="inline-block text-black">
-                              Indonesia
-                          </span>
-                      </a>
-                      <a href="./english/index.html" class="zalepik_dropdown_bahasa zalepik_button_icon hover:shadow-xl hover:border-blue-500 hover:text-blue-500">
-                          <img class="inline-block pr-2" src="./dist/img/icons/icon-language-english.svg" alt="English">
-                          <span class="inline-block text-black">
-                          English
-                      </span>
-                      </a>
-                  </div>
-              </li>
-          </ul>
-          <img class="zalepik_drawer" src="./dist/img/icons/icon-drawer_menu.svg" alt="" srcset="">
-      </div>
-      <div class="zalepik_menu_drawer">
-          <a class="zalepikDropwonButton" onclick="zalepikDropwonFunction2()">
-              <img class="inline-block" src="./dist/img/icons/icon-language-indonesian.svg" alt="Indonesia">
-              <span class="inline-block text-black">
-                  Indonesia
-              </span>
-              <svg class="inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z" fill="#25D5E8"/></svg>
-          </a>
-          <div id="zalepikDropdown2" class="zalepik_dropdown_bahasa_wrap zalepikContent2">
-              <a href="./arabic/index.html" class="zalepik_dropdown_bahasa zalepik_button_icon hover:shadow-xl hover:border-blue-500 hover:text-blue-500">
-                  <img class="inline-block pr-2" src="./dist/img/icons/icon-language-english.svg" alt="English">
-                  <span class="inline-block text-black">
-                      Arabic
-                  </span>
-              </a>
-              <a href="./index.html" class="zalepik_dropdown_bahasa zalepik_button_icon hover:shadow-xl hover:border-blue-500 hover:text-blue-500">
-                  <img class="inline-block pr-2" src="./dist/img/icons/icon-language-indonesian.svg" alt="Indonesia">
-                  <span class="inline-block text-black">
-                      Indonesia
-                  </span>
-              </a>
-              <a href="./english/index.html" class="zalepik_dropdown_bahasa zalepik_button_icon hover:shadow-xl hover:border-blue-500 hover:text-blue-500">
-                  <img class="inline-block pr-2" src="./dist/img/icons/icon-language-english.svg" alt="English">
-                  <span class="inline-block text-black">
-                  English
-              </span>
-              </a>
-          </div>
-      </div>
-  </nav>
-  <!-- End Nav -->
+        <div class="zalepik_wrap_nav">
+            <div class="zalepik_wrap_logo text-center">
 
-  <ul class="zalepik_wrap_menu_nav_drawer invisible">
-    <img class="zalepik_drawer_close" src="./dist/img/icons/icon-drawer-close.svg" alt="" srcset="">
-    <li class="zalepik_menu hover:text-blue-500"><a href="./index.html">Beranda</a></li>
-    <li class="zalepik_menu hover:text-blue-500"><a href="./portofolio.html">Portofolio</a></li>
-    <li class="zalepik_menu hover:text-blue-500"><a href="./harga.html">Harga & Promo</a></li>
-    <li class="zalepik_menu hover:text-blue-500"><a href="./gratisan.html">Gratisan</a></li>
-    <li class="zalepik_menu hover:text-blue-500"><a href="./artikel.html">Artikel</a></li>
-    <li class="zalepik_menu hover:text-blue-500"><a href="./video.html">Video</a></li>
-    <li class="zalepik_menu ml-6 zalepik_button"><a href="./hubungi.html" target="_blank">Hubungi Kami</a></li>
-</ul>
+                <a href="./index.html"><img src="./dist/img/logo-color-small.svg" alt="Logo Zalepik"></a>
+                <a href="./index.html" class="">Zalepik</a>
+            </div>
+            <ul class="zalepik_wrap_menu_nav">
+                <li class="zalepik_menu ml-6 zalepik_button px-3">
+                    <a class="zalepikDropwonButton" href="./hubungi.html">
+                        <span class="inline-block text-black">
+                            Hubungi Kami
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            
+            <div class="zalepik_menu zalepik_button px-3 lg:hidden block fixed right-0">
+                <a class="zalepikDropwonButton" href="./hubungi.html">
+                    <span class="inline-block text-black">
+                        Hubungi Kami
+                    </span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav -->
 
 
-  <!-- Main -->
-  <main>
+    <!-- Header -->
+    <header class="h-full">
 
-  <div class="zalepik_wrap_title_section flex justify-center pb-12 pt-64 items-center background_hubungi_kami">
-    <div class="z-10 bg-white col-span-12 mt-12">
-      <div id="title_header_home" class="zalepik_wrap_large_area pt-3 pb-16 text-center">
-          <h1 class="col-span-12 zalepik_title_border zalepik_title_shadow_2" title="Tinggalkan Pesan">Tinggalkan Pesan</h1>      
-      </div>
-        <form class="zalepik_form_contact grid grid-cols-12 col-span-12 px-8 gap-4" action="https://submit-form.com/sdvzlk55" method="POST">
-          <input class="zalepik_input input_text full_name" type="text" name="full_name" placeholder="Fullname" required="">
-          <input class="zalepik_input input_text _replayto" type="email" name="_replayto" placeholder="Email" required="">
-          <input class="zalepik_input input_text Phone" type="tel" name="phone" placeholder="Phone" required="">
-          <input class="zalepik_input input_text subject" type="text" name="subject" placeholder="Subject" required="">
-          <textarea class="col-span-12 h-56 py-3 zalepik_input text_area message" type="message" name="message" placeholder="Ketikkan pesan..." required=""></textarea>
-          <input class="col-start-4 col-end-10 py-4 px-4 mt-8 mb-12 input_submit zalepik_button" type="submit" value="Kirim Pesan">
-        </form>
-    </div>
-  </div>
-   
-  </main>
-  <!-- End Main -->
-  
-  
-
-
-  <!-- Footer -->
-  <footer>
-    <!-- Ikuti Kami -->
-    <div class="zalepik_wrap_title_section">
-      <div id="portfolio_home" class="zalepik_social">
-        <!--<div><a class="insline-block" target="_blank" href="https://www.facebook.com/ZalepikDesign/"><img class="inline-block" src="./dist/img/icon-social-facebook.svg"></a></div>-->
-        <div><a class="insline-block" target="_blank" href="https://api.whatsapp.com/send?phone=6281330876992&text=&source=&data="><img class="inline-block" src="./dist/img/icon-social-whatsapp.svg"></a></div>
-        <!--<div><a class="insline-block" target="_blank" href="https://join.skype.com/invite/fcrye4BtnrBO"><img class="inline-block" src="./dist/img/icon-social-skype.svg"></a></div>-->
-        <div><a class="insline-block" target="_blank" href="https://www.instagram.com/zenzalepik"><img class="inline-block" src="./dist/img/icon-social-instagram.svg"></a></div>
-        <div><a class="insline-block" target="_blank" href="https://www.youtube.com/channel/UCyZQybnpMJvc0mzxujs3tJg"><img class="inline-block" src="./dist/img/icon-social-youtube.svg"></a></div>
-        <div><a class="insline-block" target="_blank" href="https://www.behance.net/zalepik"><img class="inline-block" src="./dist/img/icon-social-behance.svg"></a></div>
-        <div><a class="insline-block" target="_blank" href="https://www.dribbble.com/zalepik"><img class="inline-block" src="./dist/img/icon-social-dribbble.svg"></a></div>
-      </div>
-    </div>
-    <!-- End Follow-->
-
-    <!-- Footer Bottom -->
         <div class="grid grid-cols-12">
-          <div id="title_header_home"
-              class="py-2 md:col-span-6 bg-blue-500 items-center col-span-12 order-2 md:order-1">
-              <ul class="col-start-2 col-span-9 text-center text-white">
-                  <li class="zalepik_menu_white"><a href="./index.html">© Zalepik | 2019</a></li>
-              </ul>
-          </div>
-          <div id="title_header_home"
-              class="py-2 md:col-span-6 bg-green-500 items-center col-span-12 order-1 md:order-2">
-              <ul class="col-start-2 col-span-9 text-center text-white">
-                  <li class="zalepik_menu_white"><a href="./index.html">Beranda</a></li>
-                  <li class="zalepik_menu_white"><a href="./gratisan.html">Gratisan</a></li>
-                  <li class="zalepik_menu_white"><a href="./portofolio.html">Portofolio</a></li>
-                  <li class="zalepik_menu_white"><a href="./artikel.html">Artikel</a></li>
-                  <li class="zalepik_menu_white"><a href="./video.html">Video</a></li>
-                  <li class="zalepik_menu_white"><a class="zalepik_md_hidden"
-                          href="./hubungi.html">Hubungi</a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-    <!-- End Footer Bottom -->
-  </footer>
-  <!-- End Footer -->
-  
-  <!-- Popup Menu drawer -->
-  <script src="./dist/js/drawer.js">  
-  </script>
-    <!-- Hide Whatsapp Widget -->
-    <script src="./dist/js/whatsapp.js">
-    </script>
-    <!-- Hide Language Dropdown -->
-    <script src="./dist/js/language.js">
-    </script>
+            <div id="title_header_home" class="zalepik_wrap_large_area sm:pt-4 pt-32 text-center grid grid-cols-12 pb-0 zalepik_index9" style="z-index: 9 !important;">
+                <img class="sm:col-start-3 sm:col-end-11 col-start-1 col-end-13 sm:p-0 p-4" src="./dist/img/promo/img_promo_website_gratis_dakwah.png" alt="" srcset="">
+                <div class="col-start-1 col-end-13">
+                    <a class="zalepik_button_blue block py-4 px-10 zalepik_button_banner_home mx-auto inset-x-0 w-56 text-center rounded-lg" href="./hubungi.html" target="_blank">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Main -->
+    <main>
+
+    </main>
+    <!-- End Main -->
 
 
     <!-- Contact Whatsapp -->
@@ -234,4 +126,5 @@
     </a>
     <!-- Contact Whatsapp -->
 </body>
+
 </html>
