@@ -1689,7 +1689,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 }
 
 .zalepik_head_gradient{
-  background-image: linear-gradient(white, #F1F0F8);
+  background-image: linear-gradient(white 33%, #F1F0F8 67%);
+}
+
+.bg-zalepik_gradient_gray_to_white{
+  background: linear-gradient(360deg, #FFFFFF 33.69%, #F1F0F8 73.59%);
 }
 
 .zalepik_head_gradient .bahasa{
@@ -1846,6 +1850,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   margin-left: 24px;
 }
 
+#pricing #zalepik_pricing_table_1:not(.zalepik_table_mobile_development_price)>div{
+  min-height: 596px;
+}
+
 #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -1890,7 +1898,7 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   line-height: 20px;
   letter-spacing: 0.4000000059604645px;
   text-align: center;
-  height: 24px;
+  height: 48px;
 }
 
 #pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_title_2{
@@ -1960,6 +1968,25 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   background-color: rgba(255, 255, 255, var(--bg-opacity));
   padding: 4px;
   box-shadow: -8px 4px 16px rgba(37, 213, 232, 0.04);
+}
+
+#pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_wrap_table_h:last-child{
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+  padding-top: 12px !important;
+  margin-left: 4px;
+  border-left: 0px solid #f2f1f9;
+  position: relative;
+  min-height: 420px !important;
+}
+
+#pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_wrap_table_h:last-child .zalepik_pricing_table_wrap_button{
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 #pricing #zalepik_pricing_table_1>div>img,
@@ -12770,6 +12797,7 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   #pricing{
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
+    padding-bottom: 120px;
   }
 
   #pricing #zalepik_pricing_table_1{
@@ -12816,14 +12844,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .zalepik_pricing_table_wrap_button,
   .zalepik_price_desain .zalepik_pricing_table_wrap_button .zalepik_button_banner_home{
-    position: relative;
     margin-top: 24px;
     padding-bottom: 24px;
-    min-height: 80px;
   }
 
   .zalepik_pricing_table_wrap_button{
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
   .zalepik_price_desain .zalepik_pricing_table_wrap_button{
@@ -12838,13 +12866,17 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   }
 
   #pricing #zalepik_pricing_table_1>div{
+    position: relative;
     margin-right: 0px;
     margin-left: 0px;
   }
 
   #pricing #zalepik_pricing_table_1>.zalepik_table_mobile_development{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_pricing_table_title{
+    margin-top: 48px;
   }
 }
 
@@ -12932,6 +12964,15 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     grid-template-columns: repeat(4, minmax(0, 1fr));
     margin-top: 120px;
   }
+
+  #pricing #zalepik_pricing_table_1>.zalepik_table_mobile_development{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_wrap_table_h:last-child{
+    border-left: 1px solid #f2f1f9;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -13015,10 +13056,6 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .zalepik_button_banner_home{
     margin-top: 40px;
-  }
-
-  .zalepik_pricing_table_wrap_button{
-    position: relative;
   }
 }
 
