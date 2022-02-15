@@ -731,6 +731,7 @@ p{
   --border-opacity: 1;
   border-color: #437BFF;
   border-color: rgba(67, 123, 255, var(--border-opacity));
+  cursor: pointer;
 }
 
 .zalepik_menu{
@@ -760,6 +761,7 @@ p{
   background-color: #437BFF;
   background-color: rgba(67, 123, 255, var(--bg-opacity));
   box-shadow: 0 12px 32px -4px rgba(37, 213, 232, 1);
+  cursor: pointer;
 }
 
 .zalepikDropwonButton{
@@ -1852,6 +1854,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
 #pricing #zalepik_pricing_table_1:not(.zalepik_table_mobile_development_price)>div{
   min-height: 596px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px  ;
+  -moz-border-radius: 40px  ;
+  -ms-border-radius: 40px  ;
+  -o-border-radius: 40px  ;
 }
 
 #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price{
@@ -1861,6 +1868,11 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 #pricing #zalepik_pricing_table_1>.zalepik_table_mobile_development{
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
+  border-radius:  40px;
+  -webkit-border-radius:  40px;
+  -moz-border-radius:  40px;
+  -ms-border-radius:  40px;
+  -o-border-radius:  40px;
 }
 
 #pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_title{
@@ -1992,6 +2004,12 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 #pricing #zalepik_pricing_table_1>div>img,
   #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_wrap_table_h>img{
   width: 100%;
+  border: 12px solid white;
+  border-radius: 40px;
+  -webkit-border-radius: 40px  ;
+  -moz-border-radius: 40px  ;
+  -ms-border-radius: 40px  ;
+  -o-border-radius: 40px  ;
 }
 
 #pricing #zalepik_pricing_table_1>div>.zalepik_pricing_table_list{
@@ -2064,6 +2082,98 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
 #pricing #zalepik_pricing_table_1{
   margin-top: 120px;
+}
+
+#services img{
+  border: 4px solid white;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+#services .zalepik-img-list img{
+  border-radius: 20px !important;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#services #galery_portfolios a{
+  grid-column-start: 1;
+}
+
+#services .zalepik_galery{
+  grid-gap: 0;
+}
+
+.rounded-and-more{
+  border-radius: 64px !important
+}
+
+.zalepik_hubungi{
+  margin-top: 28px;
+}
+
+#development-services img{
+  border-radius: 0px;
+  width: 56px;
+  margin-bottom: 12px;
+}
+
+#development-services .rounded-lg{
+  padding: 24px 12px;
+}
+
+#development-services h1>b{
+  --text-opacity: 1;
+  color: #437BFF;
+  color: rgba(67, 123, 255, var(--text-opacity));
+}
+
+#development-services .bg-white.rounded-lg>div>div>div{
+  font-size: 12px;
+}
+
+#software img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  margin-bottom:32px;
+  border-radius: 0px !important;
+}
+
+#software .bg-white.rounded-3xl{
+  padding: 24px;
+}
+
+.zalepik-border-x-1{
+  border-right: 1px solid #F2F1F9;
+  border-left: 1px solid #F2F1F9;
+}
+
+#uiux>div{
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+
+#uiux>div .text-xl{
+  font-size: 32px;
+  font-weight: 1000;
+  padding-bottom: 12px;
+}
+
+#uiux>div .zalepik_title_number{
+  height: 64px;
+  padding-bottom: 0px;
+}
+
+.zalepik_sm_7xl{
+  font-size: 64px;
 }
 
 .space-y-0 > :not(template) ~ :not(template) {
@@ -12877,6 +12987,38 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   #pricing #zalepik_pricing_table_1.zalepik_table_mobile_development_price .zalepik_pricing_table_title{
     margin-top: 48px;
+  }
+
+  .rounded-and-more{
+    border-radius: 120px !important
+  }
+
+  #services .zalepik-img-list img{
+    border-radius: 40px !important;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+
+  .zalepik-uiux{
+    content: url("../dist/img/img-service-header-uiux.png");
+  }
+
+  .zalepik-icon-and-logo{
+    content: url("../dist/img/img-service-header-icon-and-logo.png");
+  }
+
+  .zalepik-development{
+    content: url("../dist/img/img-service-header-development.png");
+  }
+
+  .zalepik-illustration{
+    content: url("../dist/img/img-service-header-illustration.png");
+  }
+
+  .zalepik_sm_7xl{
+    font-size: 72px;
   }
 }
 
