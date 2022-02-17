@@ -1365,7 +1365,7 @@ p{
 }
 
 .zalepik_input{
-  grid-column: span 6 / span 6;
+  grid-column: span 12 / span 12;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 1rem;
@@ -12869,6 +12869,14 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .zalepik_banner_text_description svg{
     height: unset;
+  }
+
+  .zalepik_input{
+    grid-column: span 6 / span 6;
+  }
+
+  textarea.zalepik_input{
+    grid-column: span 12 / span 12;
   }
 
   #about .zalepik_banner_text_description{
