@@ -12877,6 +12877,7 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   textarea.zalepik_input{
     grid-column: span 12 / span 12;
+    padd
   }
 
   #about .zalepik_banner_text_description{
