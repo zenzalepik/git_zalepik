@@ -1214,11 +1214,11 @@ p{
 }
 
 .zalepik_box_baca{
-  background-image: url("../dist/img/img_articles_bottom_start.svg");
+  background-image: url("../dist/img/img_articles_bottom_start.png");
 }
 
 .zalepik_box_nonton{
-  background-image: url("../dist/img/img_video_bottom_start.svg");
+  background-image: url("../dist/img/img_video_bottom_start.png");
 }
 
 .zalepik_wrap_title_section{
@@ -1772,9 +1772,10 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 }
 
 .background_hubungi_kami{
-  background-image: url("../dist/img/background_hubungi_kami.svg");
+  background-image: url("../dist/img/background_hubungi_kami.png");
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: unset;
 }
 
 .icon_download{
@@ -2174,6 +2175,20 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
 .zalepik_sm_7xl{
   font-size: 64px;
+}
+
+.zalepik_bg_subscribe{
+  background-image: linear-gradient(#437bff85, #437BFF), url("../dist/img/background_hubungi_kami.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.zalepik_bg_subscribe .zalepik_title_shadow_2,
+  .zalepik_bg_subscribe .zalepik_title_shadow,
+  .zalepik_bg_subscribe  .zalepik_title_border:before,
+  .zalepik_bg_subscribe .zalepik_title_shadow_2:before{
+  font-size: 30px;
+  line-height: 32px;
 }
 
 .space-y-0 > :not(template) ~ :not(template) {
@@ -12871,15 +12886,6 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
     height: unset;
   }
 
-  .zalepik_input{
-    grid-column: span 6 / span 6;
-  }
-
-  textarea.zalepik_input{
-    grid-column: span 12 / span 12;
-    padd
-  }
-
   #about .zalepik_banner_text_description{
     padding-top: 120px;
     bottom: -240px;
@@ -12892,6 +12898,19 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .zalepik_title{
     font-size: 40px;
+  }
+
+  .zalepik_input{
+    grid-column: span 6 / span 6;
+  }
+
+  .zalepik_input.zalepik_subscribe{
+    grid-column-start: 4;
+    grid-column-end: 10;
+  }
+
+  textarea.zalepik_input{
+    grid-column: span 12 / span 12;
   }
 
   .zalepik_dropdown_bahasa_wrap{
@@ -13028,6 +13047,23 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 
   .zalepik_sm_7xl{
     font-size: 72px;
+  }
+
+  .background_hubungi_kami{
+    background-size: cover;
+  }
+
+  .zalepik_bg_subscribe{
+    background-image: linear-gradient(#437bff85, #437BFF), url("../dist/img/background_hubungi_kami.png");
+    background-size: cover;
+  }
+
+  .zalepik_bg_subscribe .zalepik_title_shadow_2,
+  .zalepik_bg_subscribe .zalepik_title_shadow,
+  .zalepik_bg_subscribe  .zalepik_title_border:before,
+  .zalepik_bg_subscribe .zalepik_title_shadow_2:before{
+    font-size: 60px;
+    line-height: 60px;
   }
 }
 
